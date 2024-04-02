@@ -1,1 +1,1 @@
-# apertium-lut-slh
+README

@@ -1,0 +1,10 @@
+{
+    "lut-slh": {
+        "input": "lut-slh-input.txt",
+        "mode": "lut-slh"
+    },
+    "slh-lut": {
+        "input": "slh-lut-input.txt",
+        "mode": "slh-lut"
+    }
+}

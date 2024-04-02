@@ -1,0 +1,785 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dictionary>
+   <!-- Define the alphabet below. -->
+    <alphabet>abcdeghiklpqstuwxyúčšƛǰəɬʔʷ̌̓̕ᶻ</alphabet>
+    <sdefs>
+  <sdefs>
+    <!-- Define symbol definitions within <sdef> here. -->
+    <sdef n="adj"     c="Adjective"/>
+    <sdef n="adv"     c="Adverb"/>
+    <sdef n="cnjcoo"   c="Conjunction"/>
+    <sdef n="cnjsub"   c="Subjunction"/>
+    <sdef n="det"    c="Determiner"/>
+    <sdef n="ij"    c="Interjection"/>
+    <sdef n="n"        c="Noun"/>
+    <sdef n="np"      c="Proper noun"/>
+    <sdef n="num"    c="Numeral"/>
+    <sdef n="pcle"     c="Particle"/>
+    <sdef n="post"    c="Postposition"/>
+    <sdef n="prn"     c="Pronouns"/>
+    <sdef n="relator"      c="Relator noun"/>
+    <sdef n="vblex"     c="Verb"/>
+    <sdef n="aux"     c="Auxiliary"/>
+    <sdef n="adp"     c="Adposition"/>
+    <sdef n="cop"     c="Copula"/>
+
+    <sdef n="def"     c="Definite"/>
+    <sdef n="ind"     c="Indefinite"/>
+    <sdef n="qnt"     c="Quantifier"/>
+    <sdef n="iv"     c="Intransitive"/>
+    <sdef n="tv"     c="Transitive"/>
+
+    <sdef n="rel"      c="Relative"/>
+    <sdef n="ref"     c="Reflexive"/>
+    <sdef n="res"      c="Reciprocal"/>
+    <sdef n="itg"      c="Interrogative"/>
+    <sdef n="dem"      c="Demonstrative"/>
+
+    <sdef n="p1"       c="First person"/>
+    <sdef n="p2"       c="Second person"/>
+    <sdef n="p3"       c="Third person"/>
+
+    <sdef n="nt"              c="Neuter"/>
+    <sdef n="f"               c="Feminine"/>
+    <sdef n="m"               c="Masculine"/>
+
+    <sdef n="sg"       c="Singular"/>
+    <sdef n="pl"       c="Plural"/>
+    <sdef n="sp"      c="Singular/Plural"/>
+
+    <sdef n="sg1"      c="First-person singular"/>
+    <sdef n="sg2"      c="Second-person singular"/>
+    <sdef n="sg3"      c="Third-person singular"/>
+    <sdef n="pl1"      c="First-person plural"/>
+    <sdef n="pl2"      c="Second-person plural"/>
+    <sdef n="pl3"      c="Third-person plural"/>
+
+    <sdef n="px1sg"    c="First-person singular possessive suffix"/>
+    <sdef n="px2sg"    c="Second-person singular possessive suffix"/>
+    <sdef n="px3sg"    c="Third-person singular possessive suffix"/>
+    <sdef n="px1pl"    c="First-person plural possessive suffix"/>
+    <sdef n="px2pl"    c="Second-person plural possessive suffix"/>
+    <sdef n="px3pl"    c="Third-person plural possessive suffix"/>
+    <sdef n="abe"      c="Abessive"/>
+    <sdef n="abl"      c="Ablative"/>
+    <sdef n="caus"     c="Causative"/>
+    <sdef n="com"      c="Comitative"/>
+    <sdef n="cmpr"     c="Comparative"/>
+    <sdef n="dat"      c="Dative"/>
+    <sdef n="gen"      c="Genitive"/>
+    <sdef n="ela"      c="Elative"/>
+    <sdef n="ill"      c="Illative"/>
+    <sdef n="ine"      c="Inessive"/>
+    <sdef n="lat"      c="Lative"/>
+    <sdef n="loc"      c="Locative"/>
+    <sdef n="nom"      c="Nominative"/>
+    <sdef n="prl"      c="Prolative"/>
+    <sdef n="tra"      c="Translative"/>
+
+    <sdef n="sup"      c="Superlative"/>
+
+    <sdef n="deg"    c="Degree verb big, very quickly"/>
+
+    
+    <sdef n="conneg"  c="Negation form of verb"/>
+    <sdef n="connegii"  c="Negation form of verb"/>
+    <sdef n="neg"     c="Negation verb 'а, эзь, аволь'"/>
+
+    <sdef n="inf"     c="infinitive"/>
+    <sdef n="pres"     c="Present"/>
+    <sdef n="pret1"     c="First Preterite"/>
+    <sdef n="pret2"     c="Second Preterite"/>
+    <sdef n="prfprc"  c="Perfect participle"/>
+    <sdef n="prsprc"  c="Present participle"/>
+
+    <sdef n="cond"     c="Conditional"/>
+    <sdef n="conj"     c="Conditional"/>
+    <sdef n="des"     c="Desiderative"/>
+    <sdef n="imprt"   c="Imperative"/>
+    <sdef n="imp"     c="Imperative"/>
+    <sdef n="indic"    c="Indicative"/>
+    <sdef n="opt"   c="Optative"/>
+    <sdef n="prec"   c="Precative"/>
+
+    <sdef n="clt_cop"  c="Copula clitic"/>
+    <sdef n="clt_aram"  c="opinion clitic"/>
+    <sdef n="clt_add"  c="Additive clitic -Гак"/>
+
+    <sdef n="cmp"      c="Compound"/>
+    <sdef n="guio" 	c="Dash in split- or numeral compounds"/> 
+
+    <sdef n="punct"   c="Punctuation"/>
+    <sdef n="cm" 	c="Comma"/> 
+    <sdef n="sent" 	c="Sentence boundary"/> 
+    <sdef n="lpar" 	c=""/> 
+    <sdef n="rpar" 	c=""/> 
+    <sdef n="left"    c="Left quotation mark"/>
+    <sdef n="lquot"   c="Left quotation mark"/>
+    <sdef n="right"   c="Right quotation mark"/>
+    <sdef n="rquot"   c="Right quotation mark"/>
+    <sdef n="clb"     c="Clause boundary"/>
+    <sdef n="quot" 	c=""/> 
+    <sdef n="apos" 	c=""/> 
+
+    </sdefs>
+    <section id="main" type="standard">
+      <!-- SECTION: Miscellaneous -->
+      <e><p><l>xʷiʔ<s n="pcle"/></l><r>xʷiʔ<s n="pcle"/></r></p></e>
+
+      <!-- SECTION: Nouns -->
+                          
+	
+        <e r="RL"><p><l>bad<s n="n"/></l><r>bad<s n="n"/></r></p></e>
+        <e r="RL"><p><l>biac<s n="n"/></l><r>bayac<s n="n"/></r></p></e>
+        <e r="RL"><p><l>bibədaʔ<s n="n"/></l><r>bibədaʔ<s n="n"/></r></p></e>
+        <e r="RL"><p><l>bidᶻ<s n="n"/></l><r>bidᶻ<s n="n"/></r></p></e>
+        <e r="RL"><p><l>bubx̌əd<s n="n"/></l><r>bubx̌əd<s n="n"/></r></p></e>
+        <e r="RL"><p><l>buusil<s n="n"/></l><r>buusi<s n="n"/></r></p></e>
+        <e r="RL"><p><l>buʔqʷ<s n="n"/></l><r>buʔqʷ<s n="n"/></r></p></e>
+        <e r="RL"><p><l>bəc̓ac<s n="n"/></l><r>bəc̓ac<s n="n"/></r></p></e>
+        <e r="RL"><p><l>bədaʔ<s n="n"/></l><r>bədəʔ<s n="n"/></r></p></e>
+        <e r="RL"><p><l>bəlagʷəʔ<s n="n"/></l><r>bəlagʷəʔ<s n="n"/></r></p></e>
+        <e r="RL"><p><l>x̌aʔx̌alus<s n="n"/></l><r>bəlups<s n="n"/></r></p></e>
+        <e r="RL"><p><l>bəqsəd<s n="n"/></l><r>bəqsəd<s n="n"/></r></p></e>
+        <e r="RL"><p><l>bəqəlšuɬ<s n="n"/></l><r>bəqəlšuɬ<s n="n"/></r></p></e>
+        <e r="RL"><p><l>bəshikʷigʷilc<s n="n"/></l><r>bəshikʷigʷilc<s n="n"/></r></p></e>
+        <e r="RL"><p><l>bəsqʷ<s n="n"/></l><r>bəsqʷ<s n="n"/></r></p></e>
+        <e r="RL"><p><l>bəsq̓ayxʷayxʷ<s n="n"/></l><r>bəsq̓ayxʷayxʷ<s n="n"/></r></p></e>
+        <e r="RL"><p><l>bəsq̓ixʷixʷ<s n="n"/></l><r>bəsq̓ixʷixʷ<s n="n"/></r></p></e>
+        <e r="RL"><p><l>bətə<s n="n"/></l><r>bətə<s n="n"/></r></p></e>
+        <e r="RL"><p><l>bəščəb<s n="n"/></l><r>bəščəb<s n="n"/></r></p></e>
+        <e r="RL"><p><l>cqapsəb<s n="n"/></l><r>cqapsəb<s n="n"/></r></p></e>
+        <e r="RL"><p><l>cubəd<s n="n"/></l><r>cubəd<s n="n"/></r></p></e>
+        <e r="RL"><p><l>cəlacil<s n="n"/></l><r>cəlaci<s n="n"/></r></p></e>
+        <e r="RL"><p><l>cəq̓disbad<s n="n"/></l><r>cəq̓disbad<s n="n"/></r></p></e>
+        <e r="RL"><p><l>cəq̓disəbəd<s n="n"/></l><r>cəq̓disəbəd<s n="n"/></r></p></e>
+        <e r="RL"><p><l>c̓akʷdisbəd<s n="n"/></l><r>c̓akʷdisbəd<s n="n"/></r></p></e>
+        <e r="RL"><p><l>c̓awqʷ<s n="n"/></l><r>c̓awqʷ<s n="n"/></r></p></e>
+        <e r="RL"><p><l>c̓ic̓al<s n="n"/></l><r>c̓ic̓al<s n="n"/></r></p></e>
+        <e r="RL"><p><l>c̓ix̌<s n="n"/></l><r>c̓ix̌<s n="n"/></r></p></e>
+        <e r="RL"><p><l>c̓ix̌c̓ix̌<s n="n"/></l><r>c̓ix̌c̓ix̌<s n="n"/></r></p></e>
+        <e r="RL"><p><l>c̓ubc̓ub<s n="n"/></l><r>c̓ubc̓ub<s n="n"/></r></p></e>
+        <e r="RL"><p><l>c̓uk̓ʷəb<s n="n"/></l><r>c̓uk̓ʷəb<s n="n"/></r></p></e>
+        <e r="RL"><p><l>dayəsqidəb<s n="n"/></l><r>dayəsqidəb<s n="n"/></r></p></e>
+        <e r="RL"><p><l>duqʷəčabš<s n="n"/></l><r>duqʷəčabš<s n="n"/></r></p></e>
+        <e r="RL"><p><l>dxʷdaʔəb<s n="n"/></l><r>dxʷdaʔəb<s n="n"/></r></p></e>
+        <e r="RL"><p><l>dxʷduʔabš<s n="n"/></l><r>dxʷduʔabš<s n="n"/></r></p></e>
+        <e r="RL"><p><l>dxʷləbiʔ<s n="n"/></l><r>dxʷləbiʔ<s n="n"/></r></p></e>
+        <e r="RL"><p><l>dxʷləšucid<s n="n"/></l><r>dxʷləšucid<s n="n"/></r></p></e>
+        <e r="RL"><p><l>dxʷləšucidəladxʷ<s n="n"/></l><r>dxʷləšucidəladxʷ<s n="n"/></r></p></e>
+        <e r="RL"><p><l>dxʷsdᶻixʷqs<s n="n"/></l><r>dxʷsdᶻixʷqs<s n="n"/></r></p></e>
+        <e r="RL"><p><l>dxʷshədalqʷuʔ<s n="n"/></l><r>dxʷshədalqʷuʔ<s n="n"/></r></p></e>
+        <e r="RL"><p><l>dxʷskʷaxʷad<s n="n"/></l><r>dxʷskʷaxʷad<s n="n"/></r></p></e>
+        <e r="RL"><p><l>dxʷskʷukʷcut<s n="n"/></l><r>dxʷskʷukʷcut<s n="n"/></r></p></e>
+        <e r="RL"><p><l>dxʷsqiq̓alikʷ<s n="n"/></l><r>dxʷsqiq̓alikʷ<s n="n"/></r></p></e>
+        <e r="RL"><p><l>dxʷssp̓ayəq<s n="n"/></l><r>dxʷssp̓ayəq<s n="n"/></r></p></e>
+        <e r="RL"><p><l>dxʷstsulčalikʷ<s n="n"/></l><r>dxʷstsulčalikʷ<s n="n"/></r></p></e>
+        <e r="RL"><p><l>dxʷstəlawiltxʷ<s n="n"/></l><r>dxʷstəlawiltxʷ<s n="n"/></r></p></e>
+        <e r="RL"><p><l>dxʷst̕ilib<s n="n"/></l><r>dxʷst̕ilib<s n="n"/></r></p></e>
+        <e r="RL"><p><l>dxʷsxʷiʔxʷiʔ<s n="n"/></l><r>dxʷsxʷiʔxʷiʔ<s n="n"/></r></p></e>
+        <e r="RL"><p><l>dxʷsx̌əƛ̕alap<s n="n"/></l><r>dxʷsx̌əƛ̕alap<s n="n"/></r></p></e>
+        <e r="RL"><p><l>dxʷsx̌ʷiw̓xʷiw̓əd<s n="n"/></l><r>dxʷsx̌ʷiw̓xʷiw̓əd<s n="n"/></r></p></e>
+        <e r="RL"><p><l>dxʷsƛ̕alb<s n="n"/></l><r>dxʷsƛ̕alb<s n="n"/></r></p></e>
+        <e r="RL"><p><l>dxʷsƛ̕əladiʔəb<s n="n"/></l><r>dxʷsƛ̕əladiʔəb<s n="n"/></r></p></e>
+        <e r="RL"><p><l>dxʷsɬač̓alikʷ<s n="n"/></l><r>dxʷsɬač̓alikʷ<s n="n"/></r></p></e>
+        <e r="RL"><p><l>dxʷsɬiʔɬdahəb<s n="n"/></l><r>dxʷsɬiʔɬdahəb<s n="n"/></r></p></e>
+        <e r="RL"><p><l>dxʷsʔugʷusalikʷ<s n="n"/></l><r>dxʷsʔugʷusalikʷ<s n="n"/></r></p></e>
+        <e r="RL"><p><l>dxʷšiʔšɬbəd<s n="n"/></l><r>dxʷšiʔšɬbəd<s n="n"/></r></p></e>
+        <e r="RL"><p><l>dxʷʔaha<s n="n"/></l><r>dxʷʔaha<s n="n"/></r></p></e>
+        <e r="RL"><p><l>dəxʷp̓aʔ<s n="n"/></l><r>dəxʷp̓aʔ<s n="n"/></r></p></e>
+        <e r="RL"><p><l>dəxʷtulalikʷ<s n="n"/></l><r>dəxʷtulalikʷ<s n="n"/></r></p></e>
+        <e r="RL"><p><l>dᶻədis<s n="n"/></l><r>dᶻədis<s n="n"/></r></p></e>
+        <e r="RL"><p><l>dᶻəgʷaʔ<s n="n"/></l><r>dᶻəgʷaʔ<s n="n"/></r></p></e>
+        <e r="RL"><p><l>dᶻəgʷəʔ<s n="n"/></l><r>dᶻəgʷəʔ<s n="n"/></r></p></e>
+        <e r="RL"><p><l>dᶻəɬigʷəd<s n="n"/></l><r>dᶻəɬigʷəd<s n="n"/></r></p></e>
+        <e r="RL"><p><l>gəlk̓ic̓aʔ<s n="n"/></l><r>gəlk̓ic̓aʔ<s n="n"/></r></p></e>
+        <e r="RL"><p><l>gʷidəq<s n="n"/></l><r>gʷidəq<s n="n"/></r></p></e>
+        <e r="RL"><p><l>gʷədbixʷ<s n="n"/></l><r>gʷədbixʷ<s n="n"/></r></p></e>
+        <e r="RL"><p><l>gʷədᶻadad<s n="n"/></l><r>gʷədᶻadad<s n="n"/></r></p></e>
+        <e r="RL"><p><l>gʷədᶻalʔtxʷ<s n="n"/></l><r>gʷədᶻalʔtxʷ<s n="n"/></r></p></e>
+        <e r="RL"><p><l>haʔkʷ<s n="n"/></l><r>haʔkʷ<s n="n"/></r></p></e>
+        <e r="RL"><p><l>haʔəc<s n="n"/></l><r>haʔəc<s n="n"/></r></p></e>
+        <e r="RL"><p><l>hihudali<s n="n"/></l><r>hihudali<s n="n"/></r></p></e>
+        <e r="RL"><p><l>hiʔhaʔəc<s n="n"/></l><r>hiʔhaʔəc<s n="n"/></r></p></e>
+        <e r="RL"><p><l>hud<s n="n"/></l><r>hud<s n="n"/></r></p></e>
+        <e r="RL"><p><l>hudali<s n="n"/></l><r>hudali<s n="n"/></r></p></e>
+        <e r="RL"><p><l>huhudali<s n="n"/></l><r>huhudali<s n="n"/></r></p></e>
+        <e r="RL"><p><l>huygʷas<s n="n"/></l><r>huygʷas<s n="n"/></r></p></e>
+        <e r="RL"><p><l>həduʔ<s n="n"/></l><r>həduʔ<s n="n"/></r></p></e>
+        <e r="RL"><p><l>kawič<s n="n"/></l><r>kawič<s n="n"/></r></p></e>
+        <e r="RL"><p><l>kaw̓x̌ʷ<s n="n"/></l><r>kaw̓x̌ʷ<s n="n"/></r></p></e>
+        <e r="RL"><p><l>kayaʔ<s n="n"/></l><r>kayə<s n="n"/></r></p></e>
+        <e r="RL"><p><l>kay̓kay̓<s n="n"/></l><r>kay̓kay̓<s n="n"/></r></p></e>
+        <e r="RL"><p><l>kikiyalus<s n="n"/></l><r>kikiyalus<s n="n"/></r></p></e>
+        <e r="RL"><p><l>kiyuuqʷs<s n="n"/></l><r>kiyuuqʷs<s n="n"/></r></p></e>
+        <e r="RL"><p><l>kiʔkawič<s n="n"/></l><r>kiʔkawič<s n="n"/></r></p></e>
+        <e r="RL"><p><l>kupi<s n="n"/></l><r>kupi<s n="n"/></r></p></e>
+        <e r="RL"><p><l>kəlapx̌ʷəlč<s n="n"/></l><r>kəlapx̌ʷəlč<s n="n"/></r></p></e>
+        <e r="RL"><p><l>kəšu<s n="n"/></l><r>kəšu<s n="n"/></r></p></e>
+        <e r="RL"><p><l>kʷagʷičəd<s n="n"/></l><r>kʷagʷičəd<s n="n"/></r></p></e>
+        <e r="RL"><p><l>kʷukʷcutali<s n="n"/></l><r>kʷukʷcutali<s n="n"/></r></p></e>
+        <e r="RL"><p><l>k̓aʔk̓aʔ<s n="n"/></l><r>k̓aʔk̓aʔ<s n="n"/></r></p></e>
+        <e r="RL"><p><l>k̓ʷat̕aq<s n="n"/></l><r>k̓ʷat̕aq<s n="n"/></r></p></e>
+        <e r="RL"><p><l>k̓ʷiyəx̌<s n="n"/></l><r>k̓ʷiyəx̌<s n="n"/></r></p></e>
+        <e r="RL"><p><l>k̓ʷič̓k̓ʷič̓lax̌ədxʷ<s n="n"/></l><r>k̓ʷič̓k̓ʷič̓lax̌ədxʷ<s n="n"/></r></p></e>
+        <e r="RL"><p><l>k̓ʷəčədiʔ<s n="n"/></l><r>k̓ʷəčədiʔ<s n="n"/></r></p></e>
+        <e r="RL"><p><l>labatu<s n="n"/></l><r>labatu<s n="n"/></r></p></e>
+        <e r="RL"><p><l>lax̌ad<s n="n"/></l><r>lax̌ad<s n="n"/></r></p></e>
+        <e r="RL"><p><l>lipli<s n="n"/></l><r>lipli<s n="n"/></r></p></e>
+        <e r="RL"><p><l>luƛ̕<s n="n"/></l><r>luƛ̕<s n="n"/></r></p></e>
+        <e r="RL"><p><l>ləsisu<s n="n"/></l><r>ləsisu<s n="n"/></r></p></e>
+        <e r="RL"><p><l>ləx̌šad<s n="n"/></l><r>ləx̌šad<s n="n"/></r></p></e>
+        <e r="RL"><p><l>pišpiš<s n="n"/></l><r>pišpiš<s n="n"/></r></p></e>
+        <e r="RL"><p><l>puʔps<s n="n"/></l><r>puʔps<s n="n"/></r></p></e>
+        <e r="RL"><p><l>puʔtəd<s n="n"/></l><r>puʔtəd<s n="n"/></r></p></e>
+        <e r="RL"><p><l>pədgʷədbixʷ<s n="n"/></l><r>pədgʷədbixʷ<s n="n"/></r></p></e>
+        <e r="RL"><p><l>pədkʷəxʷic<s n="n"/></l><r>pədkʷəxʷic<s n="n"/></r></p></e>
+        <e r="RL"><p><l>pədstəgʷad<s n="n"/></l><r>pədstəgʷəd<s n="n"/></r></p></e>
+        <e r="RL"><p><l>pədt̕aqaʔ<s n="n"/></l><r>pədt̕aqa<s n="n"/></r></p></e>
+        <e r="RL"><p><l>pədt̕əs<s n="n"/></l><r>pədt̕əs<s n="n"/></r></p></e>
+        <e r="RL"><p><l>pədxʷit̕xʷit̕il<s n="n"/></l><r>pədxʷit̕xʷit̕il<s n="n"/></r></p></e>
+        <e r="RL"><p><l>pədxʷič̕ib<s n="n"/></l><r>pədxʷič̕ib<s n="n"/></r></p></e>
+        <e r="RL"><p><l>pədx̌aʔx̌aʔ<s n="n"/></l><r>pədx̌ax̌aʔ<s n="n"/></r></p></e>
+        <e r="RL"><p><l>pədč̓aʔab<s n="n"/></l><r>pədč̓aʔəb<s n="n"/></r></p></e>
+        <e r="RL"><p><l>pədƛ̕xʷayʔ<s n="n"/></l><r>pədƛ̕xʷayʔ<s n="n"/></r></p></e>
+        <e r="RL"><p><l>pəpə<s n="n"/></l><r>pəpə<s n="n"/></r></p></e>
+        <e r="RL"><p><l>p̓ayəqəd<s n="n"/></l><r>p̓ayəqəd<s n="n"/></r></p></e>
+        <e r="RL"><p><l>p̓ilic̓a<s n="n"/></l><r>p̓ilic̓a<s n="n"/></r></p></e>
+        <e r="RL"><p><l>p̓ilic̓aʔ<s n="n"/></l><r>p̓ilic̓aʔ<s n="n"/></r></p></e>
+        <e r="RL"><p><l>p̓uay̓<s n="n"/></l><r>p̓uwəyʔ<s n="n"/></r></p></e>
+        <e r="RL"><p><l>p̓əɬq̓ʷ<s n="n"/></l><r>p̓əɬq̓ʷ<s n="n"/></r></p></e>
+        <e r="RL"><p><l>p̓əɬq̓ʷabac<s n="n"/></l><r>p̓əɬq̓ʷabac<s n="n"/></r></p></e>
+        <e r="RL"><p><l>p̓əɬq̓ʷačiʔ<s n="n"/></l><r>p̓əɬq̓ʷačiʔ<s n="n"/></r></p></e>
+        <e r="RL"><p><l>qal̕qaləx̌ič<s n="n"/></l><r>qal̕qaləx̌ič<s n="n"/></r></p></e>
+        <e r="RL"><p><l>qawq̓s<s n="n"/></l><r>qawq̓s<s n="n"/></r></p></e>
+        <e r="RL"><p><l>qaw̓qs<s n="n"/></l><r>qaw̓qs<s n="n"/></r></p></e>
+        <e r="RL"><p><l>qayuqʷatx̌<s n="n"/></l><r>qayuqʷatx̌<s n="n"/></r></p></e>
+        <e r="RL"><p><l>qiw̓x̌<s n="n"/></l><r>qiw̓x̌<s n="n"/></r></p></e>
+        <e r="RL"><p><l>qədxʷ<s n="n"/></l><r>qədxʷ<s n="n"/></r></p></e>
+        <e r="RL"><p><l>qəlb<s n="n"/></l><r>qəlb<s n="n"/></r></p></e>
+        <e r="RL"><p><l>qəlub<s n="n"/></l><r>qəlub<s n="n"/></r></p></e>
+        <e r="RL"><p><l>qəluʔb<s n="n"/></l><r>qəluʔb<s n="n"/></r></p></e>
+        <e r="RL"><p><l>qəsiʔ<s n="n"/></l><r>qəsiʔ<s n="n"/></r></p></e>
+        <e r="RL"><p><l>qətqtač<s n="n"/></l><r>qətqtač<s n="n"/></r></p></e>
+        <e r="RL"><p><l>qʷagʷəbalqʷuʔ<s n="n"/></l><r>qʷagʷəbalqʷuʔ<s n="n"/></r></p></e>
+        <e r="RL"><p><l>qʷist<s n="n"/></l><r>qʷist<s n="n"/></r></p></e>
+        <e r="RL"><p><l>qʷistaɬc̓iʔ<s n="n"/></l><r>qʷistaɬc̓iʔ<s n="n"/></r></p></e>
+        <e r="RL"><p><l>qʷuʔ<s n="n"/></l><r>qʷuʔ<s n="n"/></r></p></e>
+        <e><p><l>qʷuʔqʷaʔtəd<s n="n"/></l><r>qʷiʔqʷəʔad<s n="n"/></r></p></e>
+        <e r="RL"><p><l>qʷəq̓ʷal̕<s n="n"/></l><r>qʷəq̓ʷal̕<s n="n"/></r></p></e>
+        <e r="RL"><p><l>q̓ilbid<s n="n"/></l><r>q̓ilbid<s n="n"/></r></p></e>
+        <e r="RL"><p><l>q̓il̕bid<s n="n"/></l><r>q̓il̕bid<s n="n"/></r></p></e>
+        <e r="RL"><p><l>q̓iq̓ax̌ad<s n="n"/></l><r>q̓iq̓ax̌ad<s n="n"/></r></p></e>
+        <e r="RL"><p><l>q̓ʷuʔəlƛ̕əl<s n="n"/></l><r>q̓ʷuʔəlƛ̕əl<s n="n"/></r></p></e>
+        <e r="RL"><p><l>q̓ʷəladiʔ<s n="n"/></l><r>q̓ʷəladiʔ<s n="n"/></r></p></e>
+        <e r="RL"><p><l>q̓ʷəlastəb<s n="n"/></l><r>q̓ʷəlastəb<s n="n"/></r></p></e>
+        <e r="RL"><p><l>q̓ʷəlačiʔ<s n="n"/></l><r>q̓ʷəlačiʔ<s n="n"/></r></p></e>
+        <e r="RL"><p><l>saʔkʷbixʷ<s n="n"/></l><r>saʔkʷbixʷ<s n="n"/></r></p></e>
+        <e r="RL"><p><l>sbadil<s n="n"/></l><r>sbadil<s n="n"/></r></p></e>
+        <e r="RL"><p><l>sbalqʷuʔabš<s n="n"/></l><r>sbalqʷuʔabš<s n="n"/></r></p></e>
+        <e r="RL"><p><l>sbiaw<s n="n"/></l><r>sbiaw<s n="n"/></r></p></e>
+        <e r="RL"><p><l>sbuusəɬdatil<s n="n"/></l><r>sbuusəɬdatil<s n="n"/></r></p></e>
+        <e r="RL"><p><l>sbəkʷ<s n="n"/></l><r>sbəkʷ<s n="n"/></r></p></e>
+        <e r="RL"><p><l>sbalucid<s n="n"/></l><r>sbəlúcid<s n="n"/></r></p></e>
+        <e r="RL"><p><l>scacəlqid<s n="n"/></l><r>scacəlqid<s n="n"/></r></p></e>
+        <e r="RL"><p><l>scapaʔ<s n="n"/></l><r>scapaʔ<s n="n"/></r></p></e>
+        <e r="RL"><p><l>scəbdatil<s n="n"/></l><r>scəbdati<s n="n"/></r></p></e>
+        <e r="RL"><p><l>scəlacəɬdatil<s n="n"/></l><r>scəlacəɬdatil<s n="n"/></r></p></e>
+        <e r="RL"><p><l>scəqiʔ<s n="n"/></l><r>scəqiʔ<s n="n"/></r></p></e>
+        <e r="RL"><p><l>sc̓abt<s n="n"/></l><r>sc̓abt<s n="n"/></r></p></e>
+        <e r="RL"><p><l>sc̓aliʔ<s n="n"/></l><r>sc̓aliʔ<s n="n"/></r></p></e>
+        <e r="RL"><p><l>sc̓əbəbulč<s n="n"/></l><r>sc̓əbəbulč<s n="n"/></r></p></e>
+        <e r="RL"><p><l>sdaʔ<s n="n"/></l><r>sdaʔ<s n="n"/></r></p></e>
+        <e r="RL"><p><l>sdukʷalbixʷ<s n="n"/></l><r>sdukʷalbixʷ<s n="n"/></r></p></e>
+        <e r="RL"><p><l>sduukʷ<s n="n"/></l><r>sduukʷ<s n="n"/></r></p></e>
+        <e r="RL"><p><l>sdəx̌alqsačiʔ<s n="n"/></l><r>sdəx̌alqsačiʔ<s n="n"/></r></p></e>
+        <e r="RL"><p><l>sgʷadtəd<s n="n"/></l><r>sgʷadtəd<s n="n"/></r></p></e>
+        <e r="RL"><p><l>sgʷigʷədilali<s n="n"/></l><r>sgʷigʷədilali<s n="n"/></r></p></e>
+        <e r="RL"><p><l>sgʷigʷədiltəd<s n="n"/></l><r>sgʷigʷədiltəd<s n="n"/></r></p></e>
+        <e r="RL"><p><l>sgʷədayucid<s n="n"/></l><r>sgʷədayucid<s n="n"/></r></p></e>
+        <e r="RL"><p><l>sgʷədulč<s n="n"/></l><r>sgʷədulč<s n="n"/></r></p></e>
+        <e r="RL"><p><l>sgʷəlub<s n="n"/></l><r>sgʷəlub<s n="n"/></r></p></e>
+        <e r="RL"><p><l>sgʷəlubaɬc̓iʔ<s n="n"/></l><r>sgʷəlubaɬc̓iʔ<s n="n"/></r></p></e>
+        <e r="RL"><p><l>shiʔwəbš<s n="n"/></l><r>shiʔwəbš<s n="n"/></r></p></e>
+        <e r="RL"><p><l>silulč<s n="n"/></l><r>silulč<s n="n"/></r></p></e>
+        <e r="RL"><p><l>siʔab<s n="n"/></l><r>siʔab<s n="n"/></r></p></e>
+        <e r="RL"><p><l>kaykay<s n="n"/></l><r>skaykay<s n="n"/></r></p></e>
+        <e r="RL"><p><l>skəkiʔ<s n="n"/></l><r>skəkiʔ<s n="n"/></r></p></e>
+        <e r="RL"><p><l>skʷəbšəd<s n="n"/></l><r>skʷəbšəd<s n="n"/></r></p></e>
+        <e r="RL"><p><l>skʷədulč<s n="n"/></l><r>skʷədulč<s n="n"/></r></p></e>
+        <e r="RL"><p><l>skʷədʔulč<s n="n"/></l><r>skʷədʔulč<s n="n"/></r></p></e>
+        <e r="RL"><p><l>skʷəxʷic<s n="n"/></l><r>skʷəxʷic<s n="n"/></r></p></e>
+        <e r="RL"><p><l>sk̓ayiɬus<s n="n"/></l><r>sk̓ayiɬus<s n="n"/></r></p></e>
+        <e r="RL"><p><l>sk̓ʷaqʷ<s n="n"/></l><r>sk̓ʷaqʷ<s n="n"/></r></p></e>
+        <e r="RL"><p><l>k̓ʷat̕ad<s n="n"/></l><r>sk̓ʷat̕ad<s n="n"/></r></p></e>
+        <e r="RL"><p><l>sk̓ʷic̓i<s n="n"/></l><r>sk̓ʷic̓i<s n="n"/></r></p></e>
+        <e r="RL"><p><l>sk̓ʷuy<s n="n"/></l><r>sk̓ʷuy<s n="n"/></r></p></e>
+        <e r="RL"><p><l>sk̓ʷətɬ<s n="n"/></l><r>sk̓ʷətɬ<s n="n"/></r></p></e>
+        <e r="RL"><p><l>slihibus<s n="n"/></l><r>slihibus<s n="n"/></r></p></e>
+        <e r="RL"><p><l>sləx̌il<s n="n"/></l><r>sləx̌il<s n="n"/></r></p></e>
+        <e r="RL"><p><l>spiqʷuc<s n="n"/></l><r>spiqʷuc<s n="n"/></r></p></e>
+        <e r="RL"><p><l>spud<s n="n"/></l><r>spud<s n="n"/></r></p></e>
+        <e r="RL"><p><l>spuyaləpabš<s n="n"/></l><r>spuyaləpabš<s n="n"/></r></p></e>
+        <e r="RL"><p><l>spədalikʷ<s n="n"/></l><r>spədalikʷ<s n="n"/></r></p></e>
+        <e r="RL"><p><l>spəčuʔ<s n="n"/></l><r>spəčuʔ<s n="n"/></r></p></e>
+        <e r="RL"><p><l>sp̓ac̓təd<s n="n"/></l><r>sp̓ac̓təd<s n="n"/></r></p></e>
+        <e r="RL"><p><l>sp̓aƛ̕aƛ̕<s n="n"/></l><r>sp̓aƛ̕aƛ̕<s n="n"/></r></p></e>
+        <e r="RL"><p><l>sqa<s n="n"/></l><r>sqa<s n="n"/></r></p></e>
+        <e r="RL"><p><l>sqaǰət<s n="n"/></l><r>sqaǰət<s n="n"/></r></p></e>
+        <e r="RL"><p><l>sqaʔkʷqidtəd<s n="n"/></l><r>sqaʔkʷqidtəd<s n="n"/></r></p></e>
+        <e r="RL"><p><l>sqibk̓ʷ<s n="n"/></l><r>sqibk̓ʷ<s n="n"/></r></p></e>
+        <e r="RL"><p><l>sqigʷəc<s n="n"/></l><r>sqigʷəc<s n="n"/></r></p></e>
+        <e r="RL"><p><l>sqigʷəcaɬc̓iʔ<s n="n"/></l><r>sqigʷəcaɬc̓iʔ<s n="n"/></r></p></e>
+        <e r="RL"><p><l>sqəbuʔ<s n="n"/></l><r>sqəbuʔ<s n="n"/></r></p></e>
+        <e r="RL"><p><l>sqədᶻuʔ<s n="n"/></l><r>sqədᶻuʔ<s n="n"/></r></p></e>
+        <e r="RL"><p><l>sqəlubs<s n="n"/></l><r>sqəlubs<s n="n"/></r></p></e>
+        <e r="RL"><p><l>sqʷaliʔ<s n="n"/></l><r>sqʷaliʔ<s n="n"/></r></p></e>
+        <e r="RL"><p><l>sqʷax̌səd<s n="n"/></l><r>sqʷax̌səd<s n="n"/></r></p></e>
+        <e r="RL"><p><l>sqʷəbayʔ<s n="n"/></l><r>sqʷubayʔ<s n="n"/></r></p></e>
+        <e r="RL"><p><l>sqʷədabš<s n="n"/></l><r>sqʷədabš<s n="n"/></r></p></e>
+        <e r="RL"><p><l>sqʷəlič<s n="n"/></l><r>sqʷəlič<s n="n"/></r></p></e>
+        <e r="RL"><p><l>sq̓axʷalqʷuʔ<s n="n"/></l><r>sq̓axʷalqʷuʔ<s n="n"/></r></p></e>
+        <e r="RL"><p><l>sq̓aƛ̕<s n="n"/></l><r>sq̓aƛ̕<s n="n"/></r></p></e>
+        <e r="RL"><p><l>sq̓ixʷəbš<s n="n"/></l><r>sq̓ixʷəbš<s n="n"/></r></p></e>
+        <e r="RL"><p><l>sq̓əbayʔ<s n="n"/></l><r>sq̓əbiyəʔ<s n="n"/></r></p></e>
+        <e r="RL"><p><l>sq̓ədᶻuʔ<s n="n"/></l><r>sq̓ədᶻuʔ<s n="n"/></r></p></e>
+        <e r="RL"><p><l>sq̓ʷalaš<s n="n"/></l><r>sq̓ʷalaš<s n="n"/></r></p></e>
+        <e r="RL"><p><l>sq̓ʷəlaɬad<s n="n"/></l><r>sq̓ʷəlaɬad<s n="n"/></r></p></e>
+        <e r="RL"><p><l>ssqʷaliqabš<s n="n"/></l><r>ssqʷaliqabš<s n="n"/></r></p></e>
+        <e r="RL"><p><l>staləɬ<s n="n"/></l><r>staləɬ<s n="n"/></r></p></e>
+        <e r="RL"><p><l>steq̓əxʷ<s n="n"/></l><r>steq̓əxʷ<s n="n"/></r></p></e>
+        <e r="RL"><p><l>stiqayuʔ<s n="n"/></l><r>stiqayuʔ<s n="n"/></r></p></e>
+        <e r="RL"><p><l>stiqiw<s n="n"/></l><r>stiqiw<s n="n"/></r></p></e>
+        <e r="RL"><p><l>stubš<s n="n"/></l><r>stubš<s n="n"/></r></p></e>
+        <e r="RL"><p><l>stulc̓əʔ<s n="n"/></l><r>stulc̓əʔ<s n="n"/></r></p></e>
+        <e r="RL"><p><l>stxʷub<s n="n"/></l><r>stxʷub<s n="n"/></r></p></e>
+        <e r="RL"><p><l>stəbtabəl̕<s n="n"/></l><r>stəbtabəl̕<s n="n"/></r></p></e>
+        <e r="RL"><p><l>stəgʷad<s n="n"/></l><r>stəgʷad<s n="n"/></r></p></e>
+        <e r="RL"><p><l>stəqiw̓<s n="n"/></l><r>stəqiw̓<s n="n"/></r></p></e>
+        <e r="RL"><p><l>stəq̓əxʷ<s n="n"/></l><r>stəq̓əxʷ<s n="n"/></r></p></e>
+        <e r="RL"><p><l>st̕ac̓adil<s n="n"/></l><r>st̕ac̓adil<s n="n"/></r></p></e>
+        <e r="RL"><p><l>st̕qəxʷ<s n="n"/></l><r>st̕qəxʷ<s n="n"/></r></p></e>
+        <e r="RL"><p><l>st̕ək̓ʷəb<s n="n"/></l><r>st̕ək̓ʷəb<s n="n"/></r></p></e>
+        <e r="RL"><p><l>st̕əqxʷ<s n="n"/></l><r>st̕əqxʷ<s n="n"/></r></p></e>
+        <e r="RL"><p><l>st̕əč̓asəbš<s n="n"/></l><r>st̕əč̓asəbš<s n="n"/></r></p></e>
+        <e><p><l>sup<s n="n"/></l><r>dxʷc̓agʷusəb<s n="n"/></r></p></e>
+        <e r="RL"><p><l>sup<s n="n"/></l><r>sup<s n="n"/></r></p></e>
+        <e r="RL"><p><l>sup̓qs<s n="n"/></l><r>sup̓qs<s n="n"/></r></p></e>
+        <e r="RL"><p><l>suq̓ʷaʔ<s n="n"/></l><r>suq̓ʷaʔ<s n="n"/></r></p></e>
+        <e r="RL"><p><l>sus<s n="n"/></l><r>sus<s n="n"/></r></p></e>
+        <e r="RL"><p><l>swatixʷtəd<s n="n"/></l><r>swatixʷtəd<s n="n"/></r></p></e>
+        <e r="RL"><p><l>swədaʔx̌<s n="n"/></l><r>swədaʔx̌<s n="n"/></r></p></e>
+        <e r="RL"><p><l>swəwaʔ<s n="n"/></l><r>swəwəʔ<s n="n"/></r></p></e>
+        <e r="RL"><p><l>swəwaʔdis<s n="n"/></l><r>swəwaʔdis<s n="n"/></r></p></e>
+        <e r="RL"><p><l>sxʷalacut<s n="n"/></l><r>sxʷalacut<s n="n"/></r></p></e>
+        <e r="RL"><p><l>sxʷiuk̓ʷ<s n="n"/></l><r>sxʷiuk̓ʷ<s n="n"/></r></p></e>
+        <e r="RL"><p><l>sxʷq̓ʷupabš<s n="n"/></l><r>sxʷq̓ʷupabš<s n="n"/></r></p></e>
+        <e r="RL"><p><l>sx̌alacut<s n="n"/></l><r>sx̌alacut<s n="n"/></r></p></e>
+        <e r="RL"><p><l>sx̌ayus<s n="n"/></l><r>sx̌ayus<s n="n"/></r></p></e>
+        <e r="RL"><p><l>sx̌aʔaʔ<s n="n"/></l><r>sx̌aʔaʔ<s n="n"/></r></p></e>
+        <e r="RL"><p><l>sx̌əlaʔs<s n="n"/></l><r>sx̌əlaʔs<s n="n"/></r></p></e>
+        <e r="RL"><p><l>sx̌əp̓ab<s n="n"/></l><r>sx̌əp̓ab<s n="n"/></r></p></e>
+        <e r="RL"><p><l>sx̌əčtəd<s n="n"/></l><r>sx̌əčtəd<s n="n"/></r></p></e>
+        <e r="RL"><p><l>sx̌ʷiƛ̕ayʔ<s n="n"/></l><r>sx̌ʷiƛ̕ayʔ<s n="n"/></r></p></e>
+        <e r="RL"><p><l>sx̌ʷiʔab<s n="n"/></l><r>sx̌ʷiʔab<s n="n"/></r></p></e>
+        <e r="RL"><p><l>sx̌ʷuʔx̌ʷuʔ<s n="n"/></l><r>sx̌ʷuʔx̌ʷuʔ<s n="n"/></r></p></e>
+        <e r="RL"><p><l>syalt<s n="n"/></l><r>syalt<s n="n"/></r></p></e>
+        <e r="RL"><p><l>syaʔyaʔ<s n="n"/></l><r>syayaʔ<s n="n"/></r></p></e>
+        <e r="RL"><p><l>syayus<s n="n"/></l><r>syayus<s n="n"/></r></p></e>
+        <e r="RL"><p><l>syaʔ<s n="n"/></l><r>syaʔ<s n="n"/></r></p></e>
+        <e r="RL"><p><l>syəcəb<s n="n"/></l><r>syəcəb<s n="n"/></r></p></e>
+        <e r="RL"><p><l>syəyəhub<s n="n"/></l><r>syəyəhub<s n="n"/></r></p></e>
+        <e r="RL"><p><l>sčatqɬəb<s n="n"/></l><r>sčatqɬəb<s n="n"/></r></p></e>
+        <e r="RL"><p><l>sčiy̓uʔ<s n="n"/></l><r>sčiy̓uʔ<s n="n"/></r></p></e>
+        <e r="RL"><p><l>sčiʔyu<s n="n"/></l><r>sčiʔyu<s n="n"/></r></p></e>
+        <e r="RL"><p><l>sʔuladxʷ<s n="n"/></l><r>sčədadxʷ<s n="n"/></r></p></e>
+        <e r="RL"><p><l>sčətxʷəd<s n="n"/></l><r>sčətxʷəd<s n="n"/></r></p></e>
+        <e r="RL"><p><l>sč̓abiqʷ<s n="n"/></l><r>sč̓abiqʷ<s n="n"/></r></p></e>
+        <e r="RL"><p><l>sč̓adᶻəp<s n="n"/></l><r>sč̓adᶻəp<s n="n"/></r></p></e>
+        <e r="RL"><p><l>sč̓awəyʔ<s n="n"/></l><r>sč̓awəyʔ<s n="n"/></r></p></e>
+        <e r="RL"><p><l>sč̓istxʷ<s n="n"/></l><r>sč̓istxʷ<s n="n"/></r></p></e>
+        <e r="RL"><p><l>sč̓iyuyaʔ<s n="n"/></l><r>sč̓iyuyaʔ<s n="n"/></r></p></e>
+        <e r="RL"><p><l>sƛ̕alalic̓aʔ<s n="n"/></l><r>sƛ̕alalic̓aʔ<s n="n"/></r></p></e>
+        <e r="RL"><p><l>səbəd<s n="n"/></l><r>səbəd<s n="n"/></r></p></e>
+        <e r="RL"><p><l>səli<s n="n"/></l><r>səli<s n="n"/></r></p></e>
+        <e r="RL"><p><l>səpləl<s n="n"/></l><r>səpləl<s n="n"/></r></p></e>
+        <e r="RL"><p><l>səxʷc̓agʷabacəd<s n="n"/></l><r>səxʷc̓agʷabacəd<s n="n"/></r></p></e>
+        <e r="RL"><p><l>səxʷc̓axʷad<s n="n"/></l><r>səxʷc̓axʷad<s n="n"/></r></p></e>
+        <e r="RL"><p><l>səxʷc̓aʔkʷ<s n="n"/></l><r>səxʷc̓aʔkʷ<s n="n"/></r></p></e>
+        <e r="RL"><p><l>səxʷc̓ix̌alikʷ<s n="n"/></l><r>səxʷc̓ix̌alikʷ<s n="n"/></r></p></e>
+        <e r="RL"><p><l>səxʷc̓əgʷulč<s n="n"/></l><r>səxʷc̓əgʷulč<s n="n"/></r></p></e>
+        <e r="RL"><p><l>səxʷgʷigʷədil<s n="n"/></l><r>səxʷgʷigʷədil<s n="n"/></r></p></e>
+        <e r="RL"><p><l>səxʷgʷədil<s n="n"/></l><r>səxʷgʷədil<s n="n"/></r></p></e>
+        <e r="RL"><p><l>səxʷkacacutulč<s n="n"/></l><r>səxʷkacacutulč<s n="n"/></r></p></e>
+        <e r="RL"><p><l>səxʷkʷatač<s n="n"/></l><r>səxʷkʷatač<s n="n"/></r></p></e>
+        <e r="RL"><p><l>səxʷluudxʷ<s n="n"/></l><r>səxʷluudxʷ<s n="n"/></r></p></e>
+        <e r="RL"><p><l>səxʷpupuhigʷəd<s n="n"/></l><r>səxʷpupuhigʷəd<s n="n"/></r></p></e>
+        <e r="RL"><p><l>səxʷp̓ac̓<s n="n"/></l><r>səxʷp̓ac̓<s n="n"/></r></p></e>
+        <e r="RL"><p><l>səxʷp̓aʔad<s n="n"/></l><r>səxʷp̓aʔad<s n="n"/></r></p></e>
+        <e r="RL"><p><l>səxʷqʷiʔaac<s n="n"/></l><r>səxʷqʷiʔaac<s n="n"/></r></p></e>
+        <e r="RL"><p><l>səxʷqʷuʔqʷaʔ<s n="n"/></l><r>səxʷqʷuʔqʷaʔ<s n="n"/></r></p></e>
+        <e r="RL"><p><l>səxʷqʷuʔqʷaʔtəd<s n="n"/></l><r>səxʷqʷuʔqʷaʔtəd<s n="n"/></r></p></e>
+        <e r="RL"><p><l>səxʷqʷəcap<s n="n"/></l><r>səxʷqʷəcap<s n="n"/></r></p></e>
+        <e r="RL"><p><l>səxʷq̓ʷuʔgʷəsəd<s n="n"/></l><r>səxʷq̓ʷuʔgʷəsəd<s n="n"/></r></p></e>
+        <e r="RL"><p><l>səxʷsubud<s n="n"/></l><r>səxʷsubud<s n="n"/></r></p></e>
+        <e r="RL"><p><l>səxʷtəč̓alikʷ<s n="n"/></l><r>səxʷtəč̓alikʷ<s n="n"/></r></p></e>
+        <e r="RL"><p><l>səxʷyayus<s n="n"/></l><r>səxʷyayus<s n="n"/></r></p></e>
+        <e r="RL"><p><l>səxʷč̓əɬab<s n="n"/></l><r>səxʷč̓əɬab<s n="n"/></r></p></e>
+        <e r="RL"><p><l>səxʷšic̓əlwaʔs<s n="n"/></l><r>səxʷšic̓əlwaʔs<s n="n"/></r></p></e>
+        <e r="RL"><p><l>səxʷšəɬkupi<s n="n"/></l><r>səxʷšəɬkupi<s n="n"/></r></p></e>
+        <e r="RL"><p><l>səxʷƛ̕aʔapəq̓<s n="n"/></l><r>səxʷƛ̕aʔapəq̓<s n="n"/></r></p></e>
+        <e r="RL"><p><l>səxʷƛ̕uqʷilali<s n="n"/></l><r>səxʷƛ̕uqʷilali<s n="n"/></r></p></e>
+        <e r="RL"><p><l>səxʷƛ̕ux̌ʷilali<s n="n"/></l><r>səxʷƛ̕ux̌ʷilali<s n="n"/></r></p></e>
+        <e r="RL"><p><l>səxʷƛ̕əladiʔalikʷ<s n="n"/></l><r>səxʷƛ̕əladiʔalikʷ<s n="n"/></r></p></e>
+        <e r="RL"><p><l>səxʷɬič̓id<s n="n"/></l><r>səxʷɬič̓id<s n="n"/></r></p></e>
+        <e r="RL"><p><l>səxʷʔayilalikʷali<s n="n"/></l><r>səxʷʔayilalikʷali<s n="n"/></r></p></e>
+        <e r="RL"><p><l>səxʷʔayilic̓aʔali<s n="n"/></l><r>səxʷʔayilic̓aʔali<s n="n"/></r></p></e>
+        <e r="RL"><p><l>səxʷʔuq̓ʷud<s n="n"/></l><r>səxʷʔuq̓ʷud<s n="n"/></r></p></e>
+        <e r="RL"><p><l>sɬadayʔ<s n="n"/></l><r>sɬadəyʔ<s n="n"/></r></p></e>
+        <e r="RL"><p><l>sɬagʷid<s n="n"/></l><r>sɬagʷid<s n="n"/></r></p></e>
+        <e r="RL"><p><l>sɬagʷidali<s n="n"/></l><r>sɬagʷidali<s n="n"/></r></p></e>
+        <e r="RL"><p><l>sɬax̌il<s n="n"/></l><r>sɬax̌i<s n="n"/></r></p></e>
+        <e r="RL"><p><l>sɬixʷəɬdatil<s n="n"/></l><r>sɬixʷəɬdati<s n="n"/></r></p></e>
+        <e r="RL"><p><l>sɬič̓aʔkʷčup<s n="n"/></l><r>sɬič̓aʔkʷčup<s n="n"/></r></p></e>
+        <e r="RL"><p><l>sɬub<s n="n"/></l><r>sɬub<s n="n"/></r></p></e>
+        <e r="RL"><p><l>sʔacus<s n="n"/></l><r>sʔacus<s n="n"/></r></p></e>
+        <e r="RL"><p><l>sʔax̌ʷuʔ<s n="n"/></l><r>sʔax̌ʷuʔ<s n="n"/></r></p></e>
+        <e r="RL"><p><l>sʔic̓əb<s n="n"/></l><r>sʔic̓əb<s n="n"/></r></p></e>
+        <e r="RL"><p><l>sʔilalubid<s n="n"/></l><r>sʔilalubid<s n="n"/></r></p></e>
+        <e r="RL"><p><l>sʔilidgʷəs<s n="n"/></l><r>sʔilidgʷəs<s n="n"/></r></p></e>
+        <e r="RL"><p><l>sʔubəd<s n="n"/></l><r>sʔubəd<s n="n"/></r></p></e>
+        <e r="RL"><p><l>sʔukʷukʷ<s n="n"/></l><r>sʔukʷukʷ<s n="n"/></r></p></e>
+        <e r="RL"><p><l>sʔəsluʔilc<s n="n"/></l><r>sʔəsluʔilc<s n="n"/></r></p></e>
+        <e r="RL"><p><l>sʔəɬəd<s n="n"/></l><r>sʔəɬəd<s n="n"/></r></p></e>
+        <e r="RL"><p><l>sʔəɬədali<s n="n"/></l><r>sʔəɬədali<s n="n"/></r></p></e>
+        <e r="RL"><p><l>sʔəɬədalʔtxʷ<s n="n"/></l><r>sʔəɬədalʔtxʷ<s n="n"/></r></p></e>
+        <e r="RL"><p><l>taktə<s n="n"/></l><r>taktə<s n="n"/></r></p></e>
+        <e r="RL"><p><l>talə<s n="n"/></l><r>talə<s n="n"/></r></p></e>
+        <e r="RL"><p><l>tatačulbixʷ<s n="n"/></l><r>tatačulbixʷ<s n="n"/></r></p></e>
+        <e r="RL"><p><l>taw̓d<s n="n"/></l><r>taw̓d<s n="n"/></r></p></e>
+        <e r="RL"><p><l>tibu<s n="n"/></l><r>tibu<s n="n"/></r></p></e>
+        <e r="RL"><p><l>titčulbixʷ<s n="n"/></l><r>titčulbixʷ<s n="n"/></r></p></e>
+        <e r="RL"><p><l>tklus<s n="n"/></l><r>tklus<s n="n"/></r></p></e>
+        <e r="RL"><p><l>tsibudᶻaɬ<s n="n"/></l><r>tsibudᶻaɬ<s n="n"/></r></p></e>
+        <e r="RL"><p><l>tubšədad<s n="n"/></l><r>tubšədad<s n="n"/></r></p></e>
+        <e r="RL"><p><l>tulqʷ<s n="n"/></l><r>tulqʷ<s n="n"/></r></p></e>
+        <e r="RL"><p><l>txʷəlšucid<s n="n"/></l><r>txʷəlšucid<s n="n"/></r></p></e>
+        <e r="RL"><p><l>təklus<s n="n"/></l><r>təklus<s n="n"/></r></p></e>
+        <e r="RL"><p><l>təkʷtəkʷəlus<s n="n"/></l><r>təkʷtəkʷəlus<s n="n"/></r></p></e>
+        <e r="RL"><p><l>tətiʔəd<s n="n"/></l><r>tətiʔəd<s n="n"/></r></p></e>
+        <e r="RL"><p><l>tətupəl̕<s n="n"/></l><r>tətupəl̕<s n="n"/></r></p></e>
+        <e r="RL"><p><l>təǰabac<s n="n"/></l><r>təǰabac<s n="n"/></r></p></e>
+        <e r="RL"><p><l>t̕altəd<s n="n"/></l><r>t̕altəd<s n="n"/></r></p></e>
+        <e r="RL"><p><l>t̕aləkʷ<s n="n"/></l><r>t̕aləkʷ<s n="n"/></r></p></e>
+        <e r="RL"><p><l>t̕aɬigʷs<s n="n"/></l><r>t̕aɬigʷs<s n="n"/></r></p></e>
+        <e r="RL"><p><l>t̕ilus<s n="n"/></l><r>t̕ilus<s n="n"/></r></p></e>
+        <e r="RL"><p><l>t̕iq̓ʷ<s n="n"/></l><r>t̕iq̓ʷ<s n="n"/></r></p></e>
+        <e r="RL"><p><l>t̕it̕x̌əlaʔ<s n="n"/></l><r>t̕it̕x̌əlaʔ<s n="n"/></r></p></e>
+        <e r="RL"><p><l>t̕ukʷtəd<s n="n"/></l><r>t̕ukʷtəd<s n="n"/></r></p></e>
+        <e r="RL"><p><l>waq̓waq̓<s n="n"/></l><r>waq̓waq̓<s n="n"/></r></p></e>
+        <e r="RL"><p><l>waq̓waq̓us<s n="n"/></l><r>waq̓waq̓us<s n="n"/></r></p></e>
+        <e r="RL"><p><l>wiw̓suʔ<s n="n"/></l><r>wiw̓su<s n="n"/></r></p></e>
+        <e r="RL"><p><l>wəq̓əb<s n="n"/></l><r>wəq̓əb<s n="n"/></r></p></e>
+        <e r="RL"><p><l>xʷax̌ʷaʔəd<s n="n"/></l><r>xʷax̌ʷaʔəd<s n="n"/></r></p></e>
+        <e r="RL"><p><l>xʷt̕agʷtəd<s n="n"/></l><r>xʷt̕agʷtəd<s n="n"/></r></p></e>
+        <e r="RL"><p><l>xʷyatacut<s n="n"/></l><r>xʷyatacut<s n="n"/></r></p></e>
+        <e r="RL"><p><l>xʷč̓iɬqs<s n="n"/></l><r>xʷč̓iɬqs<s n="n"/></r></p></e>
+        <e r="RL"><p><l>xʷƛ̕alap<s n="n"/></l><r>xʷƛ̕alap<s n="n"/></r></p></e>
+        <e r="RL"><p><l>xʷəlšucid<s n="n"/></l><r>xʷəlšucid<s n="n"/></r></p></e>
+        <e r="RL"><p><l>x̌alalʔtxʷ<s n="n"/></l><r>x̌alalʔtxʷ<s n="n"/></r></p></e>
+        <e r="RL"><p><l>x̌ald<s n="n"/></l><r>x̌ald<s n="n"/></r></p></e>
+        <e r="RL"><p><l>x̌altəd<s n="n"/></l><r>x̌altəd<s n="n"/></r></p></e>
+        <e r="RL"><p><l>x̌ax̌aʔ<s n="n"/></l><r>x̌ax̌aʔ<s n="n"/></r></p></e>
+        <e r="RL"><p><l>x̌ayəbus<s n="n"/></l><r>x̌ayəbus<s n="n"/></r></p></e>
+        <e r="RL"><p><l>x̌ačuʔ<s n="n"/></l><r>x̌ačuʔ<s n="n"/></r></p></e>
+        <e r="RL"><p><l>x̌aʔx̌alus<s n="n"/></l><r>x̌aʔx̌alus<s n="n"/></r></p></e>
+        <e r="RL"><p><l>x̌aʔx̌aʔəɬdat<s n="n"/></l><r>x̌aʔx̌aʔəɬdat<s n="n"/></r></p></e>
+        <e r="RL"><p><l>x̌ibx̌ib<s n="n"/></l><r>x̌ibx̌ib<s n="n"/></r></p></e>
+        <e r="RL"><p><l>x̌iʔx̌isdaʔ<s n="n"/></l><r>x̌iʔx̌isdaʔ<s n="n"/></r></p></e>
+        <e r="RL"><p><l>x̌payʔac<s n="n"/></l><r>x̌payʔac<s n="n"/></r></p></e>
+        <e r="RL"><p><l>x̌qp̓ucid<s n="n"/></l><r>x̌qp̓ucid<s n="n"/></r></p></e>
+        <e r="RL"><p><l>x̌ədx̌əd<s n="n"/></l><r>x̌ədx̌əd<s n="n"/></r></p></e>
+        <e r="RL"><p><l>x̌ədx̌əx̌gʷil<s n="n"/></l><r>x̌ədx̌əx̌gʷil<s n="n"/></r></p></e>
+        <e r="RL"><p><l>x̌əč<s n="n"/></l><r>x̌əč<s n="n"/></r></p></e>
+        <e r="RL"><p><l>x̌əƛ̕yačəd<s n="n"/></l><r>x̌əƛ̕yačəd<s n="n"/></r></p></e>
+        <e r="RL"><p><l>x̌əɬidup<s n="n"/></l><r>x̌əɬidup<s n="n"/></r></p></e>
+        <e r="RL"><p><l>x̌ʷayux̌ʷaʔ<s n="n"/></l><r>x̌ʷayux̌ʷaʔ<s n="n"/></r></p></e>
+        <e r="RL"><p><l>x̌ʷiləb<s n="n"/></l><r>x̌ʷiləb<s n="n"/></r></p></e>
+        <e r="RL"><p><l>x̌ʷt̕agʷxʷtəd<s n="n"/></l><r>x̌ʷt̕agʷxʷtəd<s n="n"/></r></p></e>
+        <e r="RL"><p><l>x̌ʷəlč<s n="n"/></l><r>x̌ʷəlč<s n="n"/></r></p></e>
+        <e r="RL"><p><l>yayustəd<s n="n"/></l><r>yayustəd<s n="n"/></r></p></e>
+        <e r="RL"><p><l>yiyəq̓ʷ<s n="n"/></l><r>yiyəq̓ʷ<s n="n"/></r></p></e>
+        <e><p><l>yubəč<s n="n"/></l><r>sac̓əb<s n="n"/></r></p></e>
+        <e r="RL"><p><l>yəlab<s n="n"/></l><r>yəlab<s n="n"/></r></p></e>
+        <e r="RL"><p><l>yəl̕yəlab<s n="n"/></l><r>yəl̕yəlab<s n="n"/></r></p></e>
+        <e r="RL"><p><l>yəw̓yəɬdaʔ<s n="n"/></l><r>yəw̓yəɬdaʔ<s n="n"/></r></p></e>
+        <e r="RL"><p><l>yəx̌ʷəlaʔ<s n="n"/></l><r>yəx̌ʷulaʔ<s n="n"/></r></p></e>
+        <e r="RL"><p><l>čaləs<s n="n"/></l><r>čaləs<s n="n"/></r></p></e>
+        <e r="RL"><p><l>čaləš<s n="n"/></l><r>čaləš<s n="n"/></r></p></e>
+        <e r="RL"><p><l>čidᶻ<s n="n"/></l><r>čidᶻ<s n="n"/></r></p></e>
+        <e r="RL"><p><l>čubəabš<s n="n"/></l><r>čubəabš<s n="n"/></r></p></e>
+        <e r="RL"><p><l>čəgʷas<s n="n"/></l><r>čəgʷəs<s n="n"/></r></p></e>
+        <e r="RL"><p><l>čəlis<s n="n"/></l><r>čəlis<s n="n"/></r></p></e>
+        <e r="RL"><p><l>čəlqʷubəʔ<s n="n"/></l><r>čəlqʷubəʔ<s n="n"/></r></p></e>
+        <e r="RL"><p><l>čxʷəluʔ<s n="n"/></l><r>čəxʷəluʔ<s n="n"/></r></p></e>
+        <e r="RL"><p><l>č̓adəsqidəb<s n="n"/></l><r>č̓adəsqidəb<s n="n"/></r></p></e>
+        <e r="RL"><p><l>č̓awəyulč<s n="n"/></l><r>č̓awəyulč<s n="n"/></r></p></e>
+        <e r="RL"><p><l>č̓awəyʔulč<s n="n"/></l><r>č̓awəyʔulč<s n="n"/></r></p></e>
+        <e r="RL"><p><l>č̓ač̓as<s n="n"/></l><r>č̓ač̓aš<s n="n"/></r></p></e>
+        <e r="RL"><p><l>č̓itabac<s n="n"/></l><r>č̓itabəc<s n="n"/></r></p></e>
+        <e r="RL"><p><l>č̓ič̓əlpyaqid<s n="n"/></l><r>č̓ič̓əlpyaqid<s n="n"/></r></p></e>
+        <e r="RL"><p><l>č̓t̕ilqʷəbš<s n="n"/></l><r>č̓t̕ilqʷəbš<s n="n"/></r></p></e>
+        <e r="RL"><p><l>č̓əbəš<s n="n"/></l><r>č̓əbəš<s n="n"/></r></p></e>
+        <e r="RL"><p><l>č̓əƛ̕əʔ<s n="n"/></l><r>č̓əƛ̕əʔ<s n="n"/></r></p></e>
+        <e r="RL"><p><l>č̓əɬabalʔtxʷ<s n="n"/></l><r>č̓əɬabalʔtxʷ<s n="n"/></r></p></e>
+        <e r="RL"><p><l>šukʷə<s n="n"/></l><r>šukʷə<s n="n"/></r></p></e>
+        <e r="RL"><p><l>šəgʷaq<s n="n"/></l><r>šəgʷaq<s n="n"/></r></p></e>
+        <e r="RL"><p><l>šəgʷaʔac<s n="n"/></l><r>šəgʷaʔac<s n="n"/></r></p></e>
+        <e r="RL"><p><l>šəgʷɬ<s n="n"/></l><r>šəgʷɬ<s n="n"/></r></p></e>
+        <e r="RL"><p><l>ƛ̕ax̌ʷdup<s n="n"/></l><r>ƛ̕ax̌ʷdup<s n="n"/></r></p></e>
+        <e r="RL"><p><l>ƛ̕aƛ̕ac̓apəd<s n="n"/></l><r>ƛ̕aƛ̕ac̓apəd<s n="n"/></r></p></e>
+        <e r="RL"><p><l>ƛ̕aɬəb<s n="n"/></l><r>ƛ̕aɬəb<s n="n"/></r></p></e>
+        <e r="RL"><p><l>ƛ̕iq̓s<s n="n"/></l><r>ƛ̕iq̓s<s n="n"/></r></p></e>
+        <e r="RL"><p><l>ƛ̕ux̌ʷƛ̕ux̌ʷ<s n="n"/></l><r>ƛ̕ux̌ʷƛ̕ux̌ʷ<s n="n"/></r></p></e>
+        <e r="RL"><p><l>ƛ̕xʷayʔ<s n="n"/></l><r>ƛ̕xʷayʔ<s n="n"/></r></p></e>
+        <e r="RL"><p><l>ƛ̕əlayʔ<s n="n"/></l><r>ƛ̕əlayʔ<s n="n"/></r></p></e>
+        <e r="RL"><p><l>ǰəsəd<s n="n"/></l><r>ǰəšəd<s n="n"/></r></p></e>
+        <e r="RL"><p><l>ɬalap<s n="n"/></l><r>ɬaləp̓<s n="n"/></r></p></e>
+        <e r="RL"><p><l>ɬaʔx̌<s n="n"/></l><r>ɬaʔx̌<s n="n"/></r></p></e>
+        <e r="RL"><p><l>ɬəčəb<s n="n"/></l><r>ɬəčəb<s n="n"/></r></p></e>
+        <e r="RL"><p><l>ʔaciɬtalbixʷ<s n="n"/></l><r>ʔaciɬtalbixʷ<s n="n"/></r></p></e>
+        <e r="RL"><p><l>ʔalš<s n="n"/></l><r>ʔalš<s n="n"/></r></p></e>
+        <e r="RL"><p><l>ʔaləxʷk̓ʷid<s n="n"/></l><r>ʔaləxʷk̓ʷid<s n="n"/></r></p></e>
+        <e r="RL"><p><l>ʔaləšək<s n="n"/></l><r>ʔaləšək<s n="n"/></r></p></e>
+        <e r="RL"><p><l>ʔalʔal<s n="n"/></l><r>ʔalʔal<s n="n"/></r></p></e>
+        <e r="RL"><p><l>ʔapəl<s n="n"/></l><r>ʔapəl<s n="n"/></r></p></e>
+        <e r="RL"><p><l>ʔibac<s n="n"/></l><r>ʔibac<s n="n"/></r></p></e>
+        <e r="RL"><p><l>ʔiišəd<s n="n"/></l><r>ʔiišəd<s n="n"/></r></p></e>
+        <e r="RL"><p><l>ʔikʷpipə<s n="n"/></l><r>ʔikʷpipə<s n="n"/></r></p></e>
+        <e r="RL"><p><l>ʔik̓ʷaʔdəl<s n="n"/></l><r>ʔik̓ʷaʔdəl<s n="n"/></r></p></e>
+        <e r="RL"><p><l>ʔik̓ʷpipə<s n="n"/></l><r>ʔik̓ʷpipə<s n="n"/></r></p></e>
+        <e r="RL"><p><l>ʔik̓ʷusəd<s n="n"/></l><r>ʔik̓ʷusəd<s n="n"/></r></p></e>
+        <e r="RL"><p><l>ʔukʷs<s n="n"/></l><r>ʔukʷs<s n="n"/></r></p></e>
+        <e><p><l>ʔəpus<s n="n"/></l><r>pus<s n="n"/></r></p></e>
+        <e r="RL"><p><l>ʔəw̓alus<s n="n"/></l><r>ʔəw̓alus<s n="n"/></r></p></e>
+        <e r="RL"><p><l>ʔəʔus<s n="n"/></l><r>ʔəʔus<s n="n"/></r></p></e>
+	
+      <!-- SECTION: Pronouns -->
+      <e><p><l>tiʔiɬ<s n="prn"/></l><r>tiiɬ<s n="prn"/></r></p></e>
+
+
+      <!-- SECTION: Verbs -->
+        <e r="RL"><p><l>bəq̓təb<s n="vblex"/></l><r>bəq̓təb<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>bəq̓əd<s n="vblex"/></l><r>bəq̓əd<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>bəčad<s n="vblex"/></l><r>bəčad<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>bəčdub<s n="vblex"/></l><r>bəčdub<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>bəƛ̕šadəb<s n="vblex"/></l><r>bəƛ̕šadəb<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>bəƛ̕əd<s n="vblex"/></l><r>bəƛ̕əd<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>bəɬ<s n="vblex"/></l><r>bəɬ<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>caq̓ad<s n="vblex"/></l><r>caq̓ad<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>cilid<s n="vblex"/></l><r>cilid<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>cut<s n="vblex"/></l><r>cut<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>cutəb<s n="vblex"/></l><r>cutab<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>cuud<s n="vblex"/></l><r>cuud<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>c̓agʷad<s n="vblex"/></l><r>c̓agʷad<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>c̓agʷatsut<s n="vblex"/></l><r>c̓agʷatsut<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>c̓agʷačiʔb<s n="vblex"/></l><r>c̓agʷačiʔb<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>c̓ibid<s n="vblex"/></l><r>c̓ibid<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>c̓ix̌alikʷ<s n="vblex"/></l><r>c̓ix̌alikʷ<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>c̓ix̌id<s n="vblex"/></l><r>c̓ix̌id<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>c̓əbəb<s n="vblex"/></l><r>c̓əbəb<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>diʔiʔil<s n="vblex"/></l><r>diʔiʔil<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>dəgʷad<s n="vblex"/></l><r>dəgʷad<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>dᶻax̌ʷad<s n="vblex"/></l><r>dᶻax̌ʷad<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>dᶻubalikʷ<s n="vblex"/></l><r>dᶻubalikʷ<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>dᶻəqil<s n="vblex"/></l><r>dᶻəqil<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>gəqil<s n="vblex"/></l><r>gəqil<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>gʷiid<s n="vblex"/></l><r>gʷiid<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>gʷədil<s n="vblex"/></l><r>gʷədil<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>gʷəqilič<s n="vblex"/></l><r>gʷəqilič<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>gʷəč̓təb<s n="vblex"/></l><r>gʷəč̓təb<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>gʷəč̓əb<s n="vblex"/></l><r>gʷəč̓əb<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>gʷəč̓əd<s n="vblex"/></l><r>gʷəč̓əd<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>gʷəƛ̕əlad<s n="vblex"/></l><r>gʷəƛ̕əlad<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>haydxʷ<s n="vblex"/></l><r>haydxʷ<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>huy<s n="vblex"/></l><r>huy<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>huytxʷ<s n="vblex"/></l><r>huytxʷ<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>huyutsut<s n="vblex"/></l><r>huyutsut<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>huyutəb<s n="vblex"/></l><r>huyutəb<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>həliʔil<s n="vblex"/></l><r>həliʔil<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>kaw̓ɬəbid<s n="vblex"/></l><r>kaw̓ɬəbid<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>kiis<s n="vblex"/></l><r>kiis<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>ɬx̌ilč<s n="vblex"/></l><r>kiis<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>kʷatač<s n="vblex"/></l><r>kʷatač<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>kʷukʷcut<s n="vblex"/></l><r>kʷukʷcut<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>kʷədad<s n="vblex"/></l><r>kʷədad<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>kʷədayitəb<s n="vblex"/></l><r>kʷədayitəb<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>k̓ʷasəb<s n="vblex"/></l><r>k̓ʷasəb<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>k̓ʷil<s n="vblex"/></l><r>k̓ʷil<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>k̓ʷit̕<s n="vblex"/></l><r>k̓ʷit̕<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>k̓ʷəšəd<s n="vblex"/></l><r>k̓ʷəšəd<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>k̓ʷəɬəd<s n="vblex"/></l><r>k̓ʷəɬəd<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>labdub<s n="vblex"/></l><r>labdub<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>labdxʷ<s n="vblex"/></l><r>labdxʷ<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>laqusəb<s n="vblex"/></l><r>laqusəb<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>laʔbəd<s n="vblex"/></l><r>laʔbəd<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>lič̓id<s n="vblex"/></l><r>lič̓id<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>luƛ̕il<s n="vblex"/></l><r>luƛ̕il<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>ləhaydxʷ<s n="vblex"/></l><r>ləhaydxʷ<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>lək̓ʷyid<s n="vblex"/></l><r>lək̓ʷyid<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>lək̓ʷyitəb<s n="vblex"/></l><r>lək̓ʷyitəb<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>lək̓ʷəd<s n="vblex"/></l><r>lək̓ʷəd<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>ləliʔil<s n="vblex"/></l><r>ləliʔil<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>ləx̌i<s n="vblex"/></l><r>ləx̌i<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>ləx̌ilič<s n="vblex"/></l><r>ləx̌ilič<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>paq̓ad<s n="vblex"/></l><r>paq̓ad<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>pədixʷalusil<s n="vblex"/></l><r>pədixʷalusil<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>p̓ayəq<s n="vblex"/></l><r>p̓ayəq<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>qələb<s n="vblex"/></l><r>qələb<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>qʷalctxʷ<s n="vblex"/></l><r>qʷalctxʷ<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>qʷibid<s n="vblex"/></l><r>qʷibid<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>qʷiʔaac<s n="vblex"/></l><r>qʷiʔaac<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>q̓ax̌ʷ<s n="vblex"/></l><r>q̓ax̌ʷ<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>q̓ilid<s n="vblex"/></l><r>q̓ilid<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>q̓ʷibid<s n="vblex"/></l><r>q̓ʷibid<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>q̓ʷuʔ<s n="vblex"/></l><r>q̓ʷuʔ<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>q̓ʷuʔgʷəsəd<s n="vblex"/></l><r>q̓ʷuʔgʷəsəd<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>q̓ʷuʔtxʷ<s n="vblex"/></l><r>q̓ʷuʔtxʷ<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>q̓ʷuʔtəb<s n="vblex"/></l><r>q̓ʷuʔtəb<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>q̓ʷuʔəd<s n="vblex"/></l><r>q̓ʷuʔəd<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>q̓ʷəl<s n="vblex"/></l><r>q̓ʷəl<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>q̓ʷəlb<s n="vblex"/></l><r>q̓ʷəlb<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>q̓ʷəld<s n="vblex"/></l><r>q̓ʷəld<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>q̓ʷəlil<s n="vblex"/></l><r>q̓ʷəlil<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>saq̓ʷ<s n="vblex"/></l><r>saq̓ʷ<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>saxʷəb<s n="vblex"/></l><r>saxʷab<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>səlpəd<s n="vblex"/></l><r>səlpəd<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>səx̌əb<s n="vblex"/></l><r>səx̌əb<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>sʔabalikʷ<s n="vblex"/></l><r>sʔabalikʷ<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>tagʷš<s n="vblex"/></l><r>tagʷš<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>taxʷačib<s n="vblex"/></l><r>taxʷačib<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>tibicut<s n="vblex"/></l><r>tibicut<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>tix̌ix̌dubut<s n="vblex"/></l><r>tix̌ix̌dubut<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>tix̌ix̌dxʷ<s n="vblex"/></l><r>tix̌ix̌dxʷ<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>tuləkʷ<s n="vblex"/></l><r>tuləkʷ<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>tədᶻil<s n="vblex"/></l><r>tədᶻil<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>təlawil<s n="vblex"/></l><r>təlawil<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>təsadiʔ<s n="vblex"/></l><r>təsadiʔ<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>tətəlawil<s n="vblex"/></l><r>tətəlawil<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>təyil<s n="vblex"/></l><r>təyil<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>təɬildxʷ<s n="vblex"/></l><r>təɬildxʷ<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>t̓iq̓ʷil<s n="vblex"/></l><r>t̓iq̓ʷil<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>t̓ək̓ʷəb<s n="vblex"/></l><r>t̓ək̓ʷəb<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>t̕ilib<s n="vblex"/></l><r>t̕ilib<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>t̕it̕əb<s n="vblex"/></l><r>t̕it̕əb<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>t̕uk̓ʷ<s n="vblex"/></l><r>t̕uk̓ʷ<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>t̕uk̓ʷtub<s n="vblex"/></l><r>t̕uk̓ʷtub<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>t̕ədədaxʷ<s n="vblex"/></l><r>t̕ədədaxʷ<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>wiliq̓ʷid<s n="vblex"/></l><r>wiliq̓ʷid<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>wiliq̓ʷitəb<s n="vblex"/></l><r>wiliq̓ʷitəb<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>xʷak̓ʷisəb<s n="vblex"/></l><r>xʷak̓ʷisəb<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>xʷəʔaʔxʷəʔil<s n="vblex"/></l><r>xʷəʔaʔxʷəʔil<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>x̌aab<s n="vblex"/></l><r>x̌aab<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>x̌ac̓iǰəd<s n="vblex"/></l><r>x̌ac̓iǰəd<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>x̌ahab<s n="vblex"/></l><r>x̌ahab<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>x̌alad<s n="vblex"/></l><r>x̌alad<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>x̌ayəb<s n="vblex"/></l><r>x̌ayəb<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>x̌aƛ̕<s n="vblex"/></l><r>x̌aƛ̕<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>x̌aƛ̕il<s n="vblex"/></l><r>x̌aƛ̕il<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>x̌aƛ̕tub<s n="vblex"/></l><r>x̌aƛ̕tub<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>x̌aƛ̕txʷ<s n="vblex"/></l><r>x̌aƛ̕txʷ<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>x̌ib<s n="vblex"/></l><r>x̌ib<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>x̌iq̓qid<s n="vblex"/></l><r>x̌iq̓qid<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>x̌ʷudx̌ʷud<s n="vblex"/></l><r>x̌udx̌ud<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>x̌ədəd<s n="vblex"/></l><r>x̌ədəd<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>x̌ək̓ʷud<s n="vblex"/></l><r>x̌ək̓ʷud<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>x̌ʷubil<s n="vblex"/></l><r>x̌ʷubil<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>yayus<s n="vblex"/></l><r>yayus<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>yuwiʔpačəb<s n="vblex"/></l><r>yuwiʔpačəb<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>yəcəb<s n="vblex"/></l><r>yəcəb<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>yəhaw̓txʷ<s n="vblex"/></l><r>yəhaw̓txʷ<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>čil<s n="vblex"/></l><r>čil<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>č̓itil<s n="vblex"/></l><r>č̓itil<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>č̓əɬab<s n="vblex"/></l><r>č̓əɬab<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>šub<s n="vblex"/></l><r>šub<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>šudxʷ<s n="vblex"/></l><r>šudxʷ<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>šulud<s n="vblex"/></l><r>šulud<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>šuləlwaʔs<s n="vblex"/></l><r>šuləlwaʔs<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>šəqačiʔb<s n="vblex"/></l><r>šəqačiʔb<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>šəqšəqačib<s n="vblex"/></l><r>šəqšəqačib<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>ƛ̕ax̌ʷ<s n="vblex"/></l><r>ƛ̕ax̌ʷ<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>ƛ̕iqagʷil<s n="vblex"/></l><r>ƛ̕iqagʷil<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>ƛ̕iqid<s n="vblex"/></l><r>ƛ̕iqid<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>ƛ̕uq̓ʷəld<s n="vblex"/></l><r>ƛ̕uq̓ʷəld<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>ƛ̕uʔil<s n="vblex"/></l><r>ƛ̕uʔil<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>ǰuʔil<s n="vblex"/></l><r>ǰuʔil<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>ɬalil<s n="vblex"/></l><r>ɬalil<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>ɬax̌il<s n="vblex"/></l><r>ɬax̌il<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>ɬaɬlil<s n="vblex"/></l><r>ɬaɬlil<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>ɬaʔačiʔb<s n="vblex"/></l><r>ɬaʔačiʔb<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>ɬič̓itəb<s n="vblex"/></l><r>ɬič̓itəb<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>ɬič̓txʷ<s n="vblex"/></l><r>ɬič̓txʷ<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>ɬiʔɬdahəb<s n="vblex"/></l><r>ɬiʔɬdahəb<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>ɬuq̓ʷud<s n="vblex"/></l><r>ɬuq̓ʷud<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>ɬx̌ilč<s n="vblex"/></l><r>ɬx̌ilč<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>ɬəgʷil<s n="vblex"/></l><r>ɬəgʷil<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>ɬəgʷilbid<s n="vblex"/></l><r>ɬəgʷilbid<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>ɬəči<s n="vblex"/></l><r>ɬəči<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>ʔa<s n="vblex"/></l><r>ʔa<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>ʔababačib<s n="vblex"/></l><r>ʔababačib<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>ʔabačiʔb<s n="vblex"/></l><r>ʔabačib<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>ʔabyitəb<s n="vblex"/></l><r>ʔabšitəb<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>ʔabyid<s n="vblex"/></l><r>ʔabšid<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>ʔabšədəb<s n="vblex"/></l><r>ʔabšədəb<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>ʔatəbəd<s n="vblex"/></l><r>ʔatəbəd<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>ʔibibəš<s n="vblex"/></l><r>ʔibibəš<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>ʔibəš<s n="vblex"/></l><r>ʔibəš<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>ʔilid<s n="vblex"/></l><r>ʔilid<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>ʔistəb<s n="vblex"/></l><r>ʔistəb<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>ʔitut<s n="vblex"/></l><r>ʔitut<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>ʔiɬšxʷ<s n="vblex"/></l><r>ʔiɬšxʷ<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>ʔiʔɬadəb<s n="vblex"/></l><r>ʔiʔɬadəb<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>ʔiʔɬəd<s n="vblex"/></l><r>ʔiʔɬəd<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>ʔukʷukʷ<s n="vblex"/></l><r>ʔukʷukʷ<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>ʔuluɬ<s n="vblex"/></l><r>ʔuluɬ<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>ʔuləx̌əd<s n="vblex"/></l><r>ʔuləx̌əd<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>ʔusils<s n="vblex"/></l><r>ʔusils<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>ʔut̕šədəb<s n="vblex"/></l><r>ʔut̕šədəb<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>ʔux̌ʷ<s n="vblex"/></l><r>ʔux̌ʷ<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>ʔux̌ʷc<s n="vblex"/></l><r>ʔux̌ʷc<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>ʔux̌ʷtxʷ<s n="vblex"/></l><r>ʔux̌ʷtxʷ<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>ʔux̌ʷtxʷyitəb<s n="vblex"/></l><r>ʔux̌ʷtxʷšitəb<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>ʔəy̓dxʷ<s n="vblex"/></l><r>ʔəy̓dxʷ<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>ʔəy̓dxʷyitəb<s n="vblex"/></l><r>ʔəy̓dxʷšitəb<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>ʔəƛɬtxʷ<s n="vblex"/></l><r>ʔəƛɬtxʷ<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>ʔəƛ̕<s n="vblex"/></l><r>ʔəƛ̕<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>ʔəƛ̕c<s n="vblex"/></l><r>ʔəƛ̕c<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>ʔəƛ̕txʷ<s n="vblex"/></l><r>ʔəƛ̕txʷ<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>ʔəɬtub<s n="vblex"/></l><r>ʔəɬtub<s n="vblex"/></r></p></e>
+        <e r="RL"><p><l>ʔəɬəd<s n="vblex"/></l><r>ʔəɬəd<s n="vblex"/></r></p></e>
+	
+      <!-- SECTION: Punctuation -->
+      <e><p><l>,<s n="cm"/></l><r>,<s n="cm"/></r></p></e>
+      <e><p><l>(<s n="lpar"/></l><r>(<s n="lpar"/></r></p></e>
+      <e><p><l>)<s n="rpar"/></l><r>)<s n="rpar"/></r></p></e>
+      <e><p><l>[<s n="lpar"/></l><r>[<s n="lpar"/></r></p></e>
+      <e><p><l>]<s n="rpar"/></l><r>]<s n="rpar"/></r></p></e>
+      <e><p><l>«<s n="lquot"/></l><r>«<s n="lquot"/></r></p></e>
+      <e><p><l>»<s n="rquot"/></l><r>»<s n="rquot"/></r></p></e>
+      <e><p><l>“<s n="lquot"/></l><r>“<s n="lquot"/></r></p></e>
+      <e><p><l>”<s n="rquot"/></l><r>”<s n="rquot"/></r></p></e>
+      <e><p><l>-<s n="guio"/></l><r>-<s n="guio"/></r></p></e>
+      <e><p><l>—<s n="guio"/></l><r>—<s n="guio"/></r></p></e>
+      <e><p><l>'<s n="apos"/></l><r>'<s n="apos"/></r></p></e>
+      <e><p><l>"<s n="sent"/></l><r>"<s n="sent"/></r></p></e>
+      <e><re>[.\?;:!]+</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
+      <e><re>[№%]?[0-9]+([.,][0-9]+)*[.,]*</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e> 
+    </section>
+</dictionary>
+
+<!--
+Resources:
+    https://wiki.apertium.org/wiki/Bilingual_dictionary
+    https://wiki.apertium.org/wiki/Apertium_New_Language_Pair_HOWTO#Bilingual_dictionary
+    https://wiki.apertium.org/wiki/List_of_symbols
+-->
