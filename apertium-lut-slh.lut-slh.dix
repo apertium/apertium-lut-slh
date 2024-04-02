@@ -2,7 +2,6 @@
 <dictionary>
    <!-- Define the alphabet below. -->
     <alphabet>abcdeghiklpqstuwxyúčšƛ̕ʔw̓y̓t̕p̓l̕c̓č̓b̓n̓m̓ǰəqʷq̓gʷq̓ʷk̓ʷkʷk̓q̓x̌x̌ʷxʷdᶻ</alphabet>
-    <sdefs>
   <sdefs>
     <!-- Define symbol definitions within <sdef> here. -->
     <sdef n="adj"     c="Adjective"/>
@@ -120,8 +119,8 @@
     <sdef n="clb"     c="Clause boundary"/>
     <sdef n="quot" 	c=""/> 
     <sdef n="apos" 	c=""/> 
+  </sdefs>
 
-    </sdefs>
     <section id="main" type="standard">
       <!-- SECTION: Miscellaneous -->
       <e><p><l>xʷiʔ<s n="pcle"/></l><r>xʷiʔ<s n="pcle"/></r></p></e>
