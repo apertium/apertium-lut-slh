@@ -125,6 +125,15 @@
       <!-- SECTION: Miscellaneous -->
       <e><p><l>xʷiʔ<s n="pcle"/></l><r>xʷiʔ<s n="pcle"/></r></p></e>
 
+      <!-- SECTION: Adjectives -->
+
+      <e><p><l>cək̓ʷ<s n="adj"/></l><r>cək̓ʷ<s n="adj"/></r></p></e>
+      <e><p><l>haʔɬ<s n="adj"/></l><r>haʔɬ<s n="adj"/></r></p></e>
+      <e><p><l>qʷiq̓ʷ<s n="adj"/></l><r>wələx̌ʷ<s n="adj"/></r></p></e>
+      <e><p><l>tagʷəxʷ<s n="adj"/></l><r>cəwəɬ<s n="adj"/></r></p></e>
+      
+      
+      
       <!-- SECTION: Nouns -->
                           
 	
@@ -368,13 +377,13 @@
         <e r="RL"><p><l>sus<s n="n"/></l><r>sus<s n="n"/></r></p></e>
         <e r="RL"><p><l>swatixʷtəd<s n="n"/></l><r>swatixʷtəd<s n="n"/></r></p></e>
         <e r="RL"><p><l>swədaʔx̌<s n="n"/></l><r>swədaʔx̌<s n="n"/></r></p></e>
-        <e r="RL"><p><l>swəwaʔ<s n="n"/></l><r>swəwəʔ<s n="n"/></r></p></e>
+        <e><p><l>swəwaʔ<s n="n"/></l><r>swəwəʔ<s n="n"/></r></p></e>
         <e r="RL"><p><l>swəwaʔdis<s n="n"/></l><r>swəwaʔdis<s n="n"/></r></p></e>
         <e r="RL"><p><l>sxʷalacut<s n="n"/></l><r>sxʷalacut<s n="n"/></r></p></e>
         <e r="RL"><p><l>sxʷiuk̓ʷ<s n="n"/></l><r>sxʷiuk̓ʷ<s n="n"/></r></p></e>
         <e r="RL"><p><l>sxʷq̓ʷupabš<s n="n"/></l><r>sxʷq̓ʷupabš<s n="n"/></r></p></e>
         <e r="RL"><p><l>sx̌alacut<s n="n"/></l><r>sx̌alacut<s n="n"/></r></p></e>
-        <e r="RL"><p><l>sx̌ayus<s n="n"/></l><r>sx̌ayus<s n="n"/></r></p></e>
+        <e r="RL"><p><l>sx̌əyus<s n="n"/></l><r>sx̌ayus<s n="n"/></r></p></e>
         <e r="RL"><p><l>sx̌aʔaʔ<s n="n"/></l><r>sx̌aʔaʔ<s n="n"/></r></p></e>
         <e r="RL"><p><l>sx̌əlaʔs<s n="n"/></l><r>sx̌əlaʔs<s n="n"/></r></p></e>
         <e r="RL"><p><l>sx̌əp̓ab<s n="n"/></l><r>sx̌əp̓ab<s n="n"/></r></p></e>
@@ -392,7 +401,7 @@
         <e r="RL"><p><l>sčiy̓uʔ<s n="n"/></l><r>sčiy̓uʔ<s n="n"/></r></p></e>
         <e r="RL"><p><l>sčiʔyu<s n="n"/></l><r>sčiʔyu<s n="n"/></r></p></e>
         <e r="RL"><p><l>sʔuladxʷ<s n="n"/></l><r>sčədadxʷ<s n="n"/></r></p></e>
-        <e r="RL"><p><l>sčətxʷəd<s n="n"/></l><r>sčətxʷəd<s n="n"/></r></p></e>
+        <e r="RL"><p><l>spaʔc<s n="n"/></l><r>sčətxʷəd<s n="n"/></r></p></e>
         <e r="RL"><p><l>sč̓abiqʷ<s n="n"/></l><r>sč̓abiqʷ<s n="n"/></r></p></e>
         <e r="RL"><p><l>sč̓adᶻəp<s n="n"/></l><r>sč̓adᶻəp<s n="n"/></r></p></e>
         <e r="RL"><p><l>sč̓awəyʔ<s n="n"/></l><r>sč̓awəyʔ<s n="n"/></r></p></e>
@@ -458,13 +467,11 @@
         <e r="RL"><p><l>taw̓d<s n="n"/></l><r>taw̓d<s n="n"/></r></p></e>
         <e r="RL"><p><l>tibu<s n="n"/></l><r>tibu<s n="n"/></r></p></e>
         <e r="RL"><p><l>titčulbixʷ<s n="n"/></l><r>titčulbixʷ<s n="n"/></r></p></e>
-        <e r="RL"><p><l>tklus<s n="n"/></l><r>tklus<s n="n"/></r></p></e>
+        <e r="RL"><p><l>təkʷəlus<s n="n"/></l><r>tklus<s n="n"/></r></p></e>
         <e r="RL"><p><l>tsibudᶻaɬ<s n="n"/></l><r>tsibudᶻaɬ<s n="n"/></r></p></e>
         <e r="RL"><p><l>tubšədad<s n="n"/></l><r>tubšədad<s n="n"/></r></p></e>
         <e r="RL"><p><l>tulqʷ<s n="n"/></l><r>tulqʷ<s n="n"/></r></p></e>
         <e r="RL"><p><l>txʷəlšucid<s n="n"/></l><r>txʷəlšucid<s n="n"/></r></p></e>
-        <e r="RL"><p><l>təklus<s n="n"/></l><r>təklus<s n="n"/></r></p></e>
-        <e r="RL"><p><l>təkʷtəkʷəlus<s n="n"/></l><r>təkʷtəkʷəlus<s n="n"/></r></p></e>
         <e r="RL"><p><l>tətiʔəd<s n="n"/></l><r>tətiʔəd<s n="n"/></r></p></e>
         <e r="RL"><p><l>tətupəl̕<s n="n"/></l><r>tətupəl̕<s n="n"/></r></p></e>
         <e r="RL"><p><l>təǰabac<s n="n"/></l><r>təǰabac<s n="n"/></r></p></e>
@@ -562,6 +569,9 @@
         <e><p><l>ʔəpus<s n="n"/></l><r>pus<s n="n"/></r></p></e>
         <e r="RL"><p><l>ʔəw̓alus<s n="n"/></l><r>ʔəw̓alus<s n="n"/></r></p></e>
         <e r="RL"><p><l>ʔəʔus<s n="n"/></l><r>ʔəʔus<s n="n"/></r></p></e>
+	
+      <!-- SECTION: Numerals -->
+      <e><p><l>ʔulub<s n="num"/></l><r>padac<s n="num"/></r></p></e>
 	
       <!-- SECTION: Pronouns -->
       <e><p><l>tiʔiɬ<s n="prn"/></l><r>tiiɬ<s n="prn"/></r></p></e>
