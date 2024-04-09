@@ -99,6 +99,8 @@
     <sdef n="indic"    c="Indicative"/>
     <sdef n="opt"   c="Optative"/>
     <sdef n="prec"   c="Precative"/>
+    <sdef n="hab"   c="Habitive"/>
+    <sdef n="temp"   c="Temporal"/>
 
     <sdef n="clt_cop"  c="Copula clitic"/>
     <sdef n="clt_aram"  c="opinion clitic"/>
@@ -127,13 +129,32 @@
 
       <!-- SECTION: Adjectives -->
 
-      <e><p><l>cək̓ʷ<s n="adj"/></l><r>cək̓ʷ<s n="adj"/></r></p></e>
-      <e><p><l>haʔɬ<s n="adj"/></l><r>haʔɬ<s n="adj"/></r></p></e>
-      <e><p><l>qʷiq̓ʷ<s n="adj"/></l><r>wələx̌ʷ<s n="adj"/></r></p></e>
-      <e><p><l>tagʷəxʷ<s n="adj"/></l><r>cəwəɬ<s n="adj"/></r></p></e>
+        <e r="RL"><p><l>bəɬ<s n="adj"/></l><r>bəɬ<s n="adj"/></r></p></e>
+        <e><p><l>cək̓ʷ<s n="adj"/></l><r>cək̓ʷ<s n="adj"/></r></p></e>
+        <e><p><l>haʔɬ<s n="adj"/></l><r>haʔɬ<s n="adj"/></r></p></e>
+        <e><p><l>qʷiq̓ʷ<s n="adj"/></l><r>wələx̌ʷ<s n="adj"/></r></p></e>
+        <e><p><l>tagʷəxʷ<s n="adj"/></l><r>cəwəɬ<s n="adj"/></r></p></e>
+      
+
+      <!-- SECTION: Adpositions -->
+
+      
+
+      <!-- SECTION: Adverbs -->
+
+      
+        <e><p><l>ck̓ʷaqid<s n="adv"/></l><r>ck̓ʷaqid<s n="adv"/></r></p></e>
       
       
+	
+      <!-- SECTION: Determiners -->
+
+        <e><p><l>ti<s n="det"/></l><r>ti<s n="det"/></r></p></e>
       
+	
+      <!-- SECTION: Interjections -->
+	
+	
       <!-- SECTION: Nouns -->
                           
 	
@@ -574,6 +595,7 @@
       <e><p><l>ʔulub<s n="num"/></l><r>padac<s n="num"/></r></p></e>
 	
       <!-- SECTION: Pronouns -->
+      <e><p><l>ti<s n="prn"/></l><r>ti<s n="prn"/></r></p></e>
       <e><p><l>tiʔiɬ<s n="prn"/></l><r>tiiɬ<s n="prn"/></r></p></e>
 
 
@@ -584,7 +606,6 @@
         <e r="RL"><p><l>bəčdub<s n="vblex"/></l><r>bəčdub<s n="vblex"/></r></p></e>
         <e r="RL"><p><l>bəƛ̕šadəb<s n="vblex"/></l><r>bəƛ̕šadəb<s n="vblex"/></r></p></e>
         <e r="RL"><p><l>bəƛ̕əd<s n="vblex"/></l><r>bəƛ̕əd<s n="vblex"/></r></p></e>
-        <e r="RL"><p><l>bəɬ<s n="vblex"/></l><r>bəɬ<s n="vblex"/></r></p></e>
         <e r="RL"><p><l>caq̓ad<s n="vblex"/></l><r>caq̓ad<s n="vblex"/></r></p></e>
         <e r="RL"><p><l>cilid<s n="vblex"/></l><r>cilid<s n="vblex"/></r></p></e>
         <e r="RL"><p><l>cut<s n="vblex"/></l><r>cut<s n="vblex"/></r></p></e>
@@ -593,6 +614,7 @@
         <e r="RL"><p><l>c̓agʷad<s n="vblex"/></l><r>c̓agʷad<s n="vblex"/></r></p></e>
         <e r="RL"><p><l>c̓agʷatsut<s n="vblex"/></l><r>c̓agʷatsut<s n="vblex"/></r></p></e>
         <e r="RL"><p><l>c̓agʷačiʔb<s n="vblex"/></l><r>c̓agʷačiʔb<s n="vblex"/></r></p></e>
+        <e><p><l>c̓akʷdaliɬəd<s n="vblex"/></l><r>c̓akʷdaliɬəd<s n="vblex"/></r></p></e>
         <e r="RL"><p><l>c̓ibid<s n="vblex"/></l><r>c̓ibid<s n="vblex"/></r></p></e>
         <e r="RL"><p><l>c̓ix̌alikʷ<s n="vblex"/></l><r>c̓ix̌alikʷ<s n="vblex"/></r></p></e>
         <e r="RL"><p><l>c̓ix̌id<s n="vblex"/></l><r>c̓ix̌id<s n="vblex"/></r></p></e>
