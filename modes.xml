@@ -48,9 +48,9 @@
       <program name="hfst-proc $1">
 	<file name="lut-slh.autogen.hfst"/>
       </program>
-      <program name="lt-proc -p">
+<!--      <program name="lt-proc -p">
         <file name="lut-slh.autopgen.bin"/>
-      </program>
+      </program> -->
     </pipeline>
   </mode>
 
@@ -101,9 +101,9 @@
       <program name="hfst-proc $1">
 	<file name="slh-lut.autogen.hfst"/>
       </program>
-      <program name="lt-proc -p">
+<!--      <program name="lt-proc -p">
         <file name="slh-lut.autopgen.bin"/>
-      </program>
+      </program>-->
     </pipeline>
   </mode>
 </modes>
