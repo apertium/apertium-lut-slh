@@ -53,19 +53,20 @@ Testing
 If you are in the source directory after running make, the following
 commands should work:
 
-```console
-$ echo "TODO test sentence 1" | apertium -d . lut-slh
-TODO test translated sentence 1
 
-$ echo "TODO test sentence 2" | apertium -d . slh-lut
-TODO test translated sentence 2
+```console
+$ echo "x̌aʔx̌alus" | apertium -d . lut-slh
+bəlups
+
+$ echo "bəlups" | apertium -d . slh-lut
+x̌aʔx̌alus
 ```
 
 After installing somewhere in `$PATH`, you should be able to do e.g.
 
 ```console
-$ echo "TODO test sentence 1" | apertium lut-slh
-TODO test translated sentence 1
+$ echo "x̌aʔx̌alus" | apertium lut-slh
+bəlups
 ```
 
 Files and data
