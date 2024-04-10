@@ -592,9 +592,20 @@
         <e r="RL"><p><l>ʔəʔus<s n="n"/></l><r>ʔəʔus<s n="n"/></r></p></e>
 	
       <!-- SECTION: Numerals -->
+	
       <e><p><l>ʔulub<s n="num"/></l><r>padac<s n="num"/></r></p></e>
 	
+      <!-- SECTION: Particles -->
+
+      <e><p><l>ʔu<s n="pcle"/></l><r>ʔu<s n="pcle"/></r></p></e>
+      
+      
       <!-- SECTION: Pronouns -->
+	
+      <e><p><l>čəd<s n="prn"/></l><r>čəd<s n="prn"/></r></p></e>
+      <e><p><l>čəxʷ<s n="prn"/></l><r>čəxʷ<s n="prn"/></r></p></e>
+      <e><p><l>čəɬ<s n="prn"/></l><r>čəɬ<s n="prn"/></r></p></e>
+      <e><p><l>čələp<s n="prn"/></l><r>čələp<s n="prn"/></r></p></e>
       <e><p><l>ti<s n="prn"/></l><r>ti<s n="prn"/></r></p></e>
       <e><p><l>tiʔiɬ<s n="prn"/></l><r>tiiɬ<s n="prn"/></r></p></e>
 
