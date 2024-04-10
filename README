@@ -55,11 +55,11 @@ commands should work:
 
 
 ```console
-$ echo "x̌aʔx̌alus" | apertium -d . lut-slh
-bəlups
+$ echo "x̌aʔx̌aʔx̌alus" | apertium -d . lut-slh
+bəlbəlups
 
-$ echo "bəlups" | apertium -d . slh-lut
-x̌aʔx̌alus
+$ echo "bəlbəlups" | apertium -d . slh-lut
+x̌aʔx̌aʔx̌alus
 ```
 
 After installing somewhere in `$PATH`, you should be able to do e.g.
