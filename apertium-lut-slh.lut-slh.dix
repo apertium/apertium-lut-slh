@@ -169,9 +169,15 @@
       
       
 	
+      <!-- SECTION: Conjuntors -->
+
+        <e><p><l>ʔi<s n="cnjcoo"/></l><r>yəxʷ<s n="cnjcoo"/></r></p></e>
+      
+      
       <!-- SECTION: Determiners -->
 
         <e><p><l>ti<s n="det"/></l><r>ti<s n="det"/></r></p></e>
+        <e><p><l>tiʔiɬ<s n="det"/></l><r>tiiɬ<s n="det"/></r></p></e>
       
 	
       <!-- SECTION: Interjections -->
