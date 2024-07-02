@@ -154,7 +154,7 @@
         <e r="RL"><p><l>xʷəxʷaʔxʷəʔ<s n="adj"/></l><r>xʷəxʷaʔxʷəʔ<s n="adj"/></r></p></e>
         <e><p><l>x̌aʔx̌aʔ<s n="adj"/></l><r>x̌ax̌aʔ<s n="adj"/></r></p></e>
         <e r="RL"><p><l>x̌ibəč̓<s n="adj"/></l><r>x̌ibəč̓<s n="adj"/></r></p></e>
-        <e r="RL"><p><l>x̌icil<s n="adj"/></l><r>x̌icil<s n="adj"/></r></p></e>
+        <e r="RL"><p><l>x̌icil<s n="adj"/></l><r>x̌ici<s n="adj"/></r></p></e>
         <e><p><l>x̌ičəc<s n="adj"/></l><r>kʷiƛ̕<s n="adj"/></r></p></e>
         <e r="RL"><p><l>x̌əɬ<s n="adj"/></l><r>x̌əɬ<s n="adj"/></r></p></e>
         <e r="RL"><p><l>x̌əɬəɬx̌əč<s n="adj"/></l><r>x̌əɬəɬx̌əč<s n="adj"/></r></p></e>
@@ -652,6 +652,7 @@
       <e><p><l>čələp<s n="prn"/></l><r>čələp<s n="prn"/></r></p></e>
       <e><p><l>ti<s n="prn"/></l><r>ti<s n="prn"/></r></p></e>
       <e><p><l>tiʔiɬ<s n="prn"/></l><r>tiiɬ<s n="prn"/></r></p></e>
+      <e><p><l>kʷi<s n="prn"/></l><r>kʷi<s n="prn"/></r></p></e>
 
 
       <!-- SECTION: Verbs -->
