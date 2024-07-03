@@ -20,6 +20,7 @@
     <sdef n="vblex"     c="Verb"/>
     <sdef n="aux"     c="Auxiliary"/>
     <sdef n="adp"     c="Adposition"/>
+    <sdef n="pr"     c="Preposition Adposition"/>
     <sdef n="cop"     c="Copula"/>
 
     <sdef n="def"     c="Definite"/>
@@ -167,6 +168,8 @@
 
       <!-- SECTION: Adpositions -->
 
+        <e><p><l>gʷəɬ<s n="pr"/></l><r>gʷəɬ<s n="pr"/></r></p></e>
+        <e><p><l>ʔə<s n="pr"/></l><r>ʔə<s n="pr"/></r></p></e>
       
 
       <!-- SECTION: Adverbs -->
@@ -464,7 +467,7 @@
         <e><p><l>sč̓istxʷ<s n="n"/></l><r>sč̓istxʷ<s n="n"/></r></p></e>
         <e><p><l>sč̓iyuyaʔ<s n="n"/></l><r>sč̓iyuyaʔ<s n="n"/></r></p></e>
         <e><p><l>sƛ̕alalic̓aʔ<s n="n"/></l><r>sƛ̕alalic̓aʔ<s n="n"/></r></p></e>
-        <e><p><l>səbəd<s n="n"/></l><r>səbəd<s n="n"/></r></p></e>
+        <e><p><l>xʷsəbəd<s n="n"/></l><r>səbəd<s n="n"/></r></p></e>
         <e><p><l>səli<s n="n"/></l><r>səli<s n="n"/></r></p></e>
         <e><p><l>səpləl<s n="n"/></l><r>səpləl<s n="n"/></r></p></e>
         <e><p><l>səxʷc̓agʷabacəd<s n="n"/></l><r>səxʷc̓agʷabacəd<s n="n"/></r></p></e>
