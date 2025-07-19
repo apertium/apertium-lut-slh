@@ -172,6 +172,7 @@
 
         <e><p><l>gʷəɬ<s n="pr"/></l><r>gʷəɬ<s n="pr"/></r></p></e>
         <e><p><l>ʔə<s n="pr"/></l><r>ʔə<s n="pr"/></r></p></e>
+        <e><p><l>ʔal<s n="pr"/></l><r>ʔal<s n="pr"/></r></p></e>
       
 
       <!-- SECTION: Adverbs -->
@@ -348,7 +349,7 @@
         <e><p><l>q̓ʷəlastəb<s n="n"/></l><r>q̓ʷəlastəb<s n="n"/></r></p></e>
         <e><p><l>q̓ʷəlačiʔ<s n="n"/></l><r>q̓ʷəlačiʔ<s n="n"/></r></p></e>
         <e><p><l>saʔkʷbixʷ<s n="n"/></l><r>saʔkʷbixʷ<s n="n"/></r></p></e>
-        <e><p><l>sbadil<s n="n"/></l><r>sbadil<s n="n"/></r></p></e>
+        <e><p><l>sbadil<s n="n"/></l><r>skʷatač<s n="n"/></r></p></e>
         <e><p><l>sbalqʷuʔabš<s n="n"/></l><r>sbalqʷuʔabš<s n="n"/></r></p></e>
         <e><p><l>sbalucid<s n="n"/></l><r>sbəlucid<s n="n"/></r></p></e>
         <e><p><l>sbiaw<s n="n"/></l><r>sbiaw<s n="n"/></r></p></e>
@@ -589,7 +590,7 @@
         <e><p><l>yəl̕yəlab<s n="n"/></l><r>yəl̕yəlab<s n="n"/></r></p></e>
         <e><p><l>yəw̓yəɬdaʔ<s n="n"/></l><r>yəw̓yəɬdaʔ<s n="n"/></r></p></e>
         <e><p><l>yəx̌ʷəlaʔ<s n="n"/></l><r>yəx̌ʷulaʔ<s n="n"/></r></p></e>
-        <e><p><l>čaləš<s n="n"/></l><r>čaləš<s n="n"/></r></p></e>
+        <e><p><l>čaləs<s n="n"/></l><r>čaləš<s n="n"/></r></p></e>
         <e r="RL"><p><l>čaləs<s n="n"/></l><r>čaləš<s n="n"/></r></p></e>
         <e><p><l>čidᶻ<s n="n"/></l><r>čidᶻ<s n="n"/></r></p></e>
         <e><p><l>čubəabš<s n="n"/></l><r>čubəabš<s n="n"/></r></p></e>
