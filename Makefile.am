@@ -14,7 +14,7 @@ TARGETS_DIR1 =		\
 	$(PREFIX1).syn.rlx.bin  \
 	$(PREFIX1).autobil.bin	\
 	$(PREFIX1).autolex.bin	\
-	$(PREFIX1).autogen.hfst \
+	$(PREFIX1).autogen-rev.hfst \
 	$(PREFIX1).t1x.bin	\
 	$(PREFIX1).t2x.bin	\
 	$(PREFIX1).t3x.bin
@@ -31,7 +31,7 @@ TARGETS_DIR2 =		\
 	$(PREFIX2).syn.rlx.bin  \
 	$(PREFIX2).autobil.bin	\
 	$(PREFIX2).autolex.bin	\
-	$(PREFIX2).autogen.hfst \
+	$(PREFIX2).autogen-rev.hfst \
 	$(PREFIX2).t1x.bin	\
 	$(PREFIX2).t2x.bin	\
 	$(PREFIX2).t3x.bin
@@ -93,8 +93,11 @@ $(PREFIX1).automorf-untrimmed.hfst: .deps/$(LANG1).automorf.hfst
 .deps/$(LANG1).autogen.hfst: $(AP_SRC1)/apertium-$(LANG1).$(LANG1).RL.att.gz .deps/.d
 	$(ZCAT) $< | hfst-txt2fst > $@
 
-$(PREFIX2).autogen.hfst: .deps/$(LANG1).autogen.hfst
-	hfst-fst2fst -O -i $< -o $@
+# Reversed: the generator reads prefixes before the lemma, but they are only
+# decided by tags after it. Reversed, tags and stem come first; rev-units.py
+# reverses the units around hfst-proc in modes.xml.
+$(PREFIX2).autogen-rev.hfst: .deps/$(LANG1).autogen.hfst
+	hfst-reverse -i $< | hfst-fst2fst -O -o $@
 
 # -------------------
 # Southern Puget Sound Salish analysis:
@@ -121,8 +124,11 @@ $(PREFIX2).automorf-untrimmed.hfst: .deps/$(LANG2).automorf.hfst
 .deps/$(LANG2).autogen.hfst: $(AP_SRC2)/apertium-$(LANG2).$(LANG2).RL.att.gz .deps/.d
 	$(ZCAT) $< | hfst-txt2fst > $@
 
-$(PREFIX1).autogen.hfst: .deps/$(LANG2).autogen.hfst
-	hfst-fst2fst -O -i $< -o $@
+# Reversed: the generator reads prefixes before the lemma, but they are only
+# decided by tags after it. Reversed, tags and stem come first; rev-units.py
+# reverses the units around hfst-proc in modes.xml.
+$(PREFIX1).autogen-rev.hfst: .deps/$(LANG2).autogen.hfst
+	hfst-reverse -i $< | hfst-fst2fst -O -o $@
 
 ###############################################################################
 ## Tagger models
@@ -221,7 +227,9 @@ $(PREFIX2).autopgen.bin: $(AP_SRC1)/$(LANG1).autopgen.bin
 ## Distribution
 ###############################################################################
 
-EXTRA_DIST=	$(SOURCES) modes.xml
+SCRIPTS_COMMON = rev-units.py
+
+EXTRA_DIST=	$(SOURCES) $(SCRIPTS_COMMON) modes.xml
 
 ###############################################################################
 ## Installation
@@ -230,7 +238,7 @@ EXTRA_DIST=	$(SOURCES) modes.xml
 apertium_lut_slhdir=$(prefix)/share/apertium/$(BASENAME)/
 
 # Files which should be installed to $(prefix)/share/apertium/$(BASENAME)/:
-apertium_lut_slh_DATA= $(TARGETS_COMMON) $(SOURCES)
+apertium_lut_slh_DATA= $(TARGETS_COMMON) $(SOURCES) $(SCRIPTS_COMMON)
 
 
 # All modes are created by the same goal, listing several will just give problems with make -j2

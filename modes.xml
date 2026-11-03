@@ -45,8 +45,14 @@
         <file name="lut-slh.t3x.bin"/>
       </program>
 
+      <program name="python3">
+	<file name="rev-units.py"/>
+      </program>
       <program name="hfst-proc $1">
-	<file name="lut-slh.autogen.hfst"/>
+	<file name="lut-slh.autogen-rev.hfst"/>
+      </program>
+      <program name="python3">
+	<file name="rev-units.py"/>
       </program>
 <!--      <program name="lt-proc -p">
         <file name="lut-slh.autopgen.bin"/>
@@ -98,8 +104,14 @@
         <file name="slh-lut.t3x.bin"/>
       </program>
 
+      <program name="python3">
+	<file name="rev-units.py"/>
+      </program>
       <program name="hfst-proc $1">
-	<file name="slh-lut.autogen.hfst"/>
+	<file name="slh-lut.autogen-rev.hfst"/>
+      </program>
+      <program name="python3">
+	<file name="rev-units.py"/>
       </program>
 <!--      <program name="lt-proc -p">
         <file name="slh-lut.autopgen.bin"/>
